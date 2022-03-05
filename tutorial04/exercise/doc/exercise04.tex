@@ -1,0 +1,291 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,total={150mm,240mm}]{geometry}
+\usepackage[american]{babel}
+
+\usepackage{float}
+\usepackage{babel}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+\usepackage{todonotes}
+\usepackage{hyperref}
+
+\usepackage{listings}
+\definecolor{listingbg}{gray}{0.95}
+\lstset{
+  language=C++,
+  basicstyle=\ttfamily\small,
+  frame=single,
+  backgroundcolor=\color{listingbg},
+  breaklines=true,
+  postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}
+  }
+
+
+\newcommand{\vx}{\vec x}
+\newcommand{\grad}{\vec \nabla}
+\newcommand{\wind}{\vec \beta}
+\newcommand{\Laplace}{\Delta}
+\newcommand{\mycomment}[1]{}
+
+
+% Exercise stylesheet
+\usepackage{exercise}
+
+\title{\textbf{Exercises for Tutorial04}}
+\subtitle{Finite Elements for the Wave  Equation}
+\exerciselabel{Exercise}
+
+\begin{document}
+
+\exerciseheader
+
+In this exercise you will:
+\begin{itemize}
+\item Work on the problem presented in \lstinline{tutorial04}.
+\item Try various time integrators, in particular the Crank-Nicolson
+  method.
+\item Explore polynomial degrees greater than $2$ (remember to change the
+  blocking to \lstinline{none}!).
+\item Implement your own local operator that switches to an elliptic
+  projection method (see the tutorial notes and Eriksson et
+  al. \cite{Eriksson})
+\item Check the energy conservation property in the numerical scheme.
+\end{itemize}
+
+\begin{Exercise}{Getting to Know the Code}
+  \lstset{language=bash} The code of \textbf{exercise04} solves the
+  wave equation formulated as a first order in time system. As already
+  explained in \lstinline{tutorial04}, we can write the wave equation
+  as a system of two equations by substituting $u_0=u$ and introducing
+  $u_1=\partial_t u_0 =\partial_t u$:
+  \begin{subequations}
+    \label{eq:SystemForm1}
+    \begin{align}
+      \partial_t u_1 - c^2\Delta u_0 &=0 &&\text{in $\Omega\times\Sigma$}, \label{eq:2a}\\
+      \partial_t u_0 - u_1 &=0 &&\text{in $\Omega\times\Sigma$}, \label{eq:2b}\\
+      u_0 &= 0 &&\text{on $\partial\Omega$},\\
+      u_1 &= 0 &&\text{on $\partial\Omega$},\\
+      u_0 &= q &&\text{at $t=0$},\\
+      u_1 &= w &&\text{at $t=0$}.
+    \end{align}
+  \end{subequations}
+  Since $u_0=u=0$ on the boundary we also have
+  $\partial_t u = u_1 = 0$ on the boundary.  Alternatively, one may
+  also simply omit the boundary condition on $u_1$.
+
+
+  The code for this exercise can be recompiled individually \textbf{in
+    your build directory} by typing make:
+  \begin{lstlisting}
+[user@localhost]$ cd release-build/dune-pdelab-tutorials/tutorial04/exercise/task
+[user@localhost]$ make clean && make
+  \end{lstlisting}
+
+  Note that in contrast to earlier exercises, three different
+  executables are built from the same source files, one each for 1D,
+  2D and 3D, in order to reduce compile times and compiler memory
+  usage.
+
+  The structure of the code is very similar to the previous tutorials
+  and consists of the following files:
+  \begin{itemize}
+  \item \lstinline!exercise04.ini! -- holds parameters read by various
+    parts of the code which control the execution,
+  \item \lstinline!exercise04.cc! -- main program,
+  \item \lstinline!driver.hh! -- instantiates the necessary PDELab
+    classes for solving a linear instationary problem and finally
+    solves the problem,
+  \item \lstinline!wavefem.hh! -- contains the local operator classes
+    \lstinline!WaveFEM! and \lstinline!WaveL2! realizing the spatial
+    and temporal residual forms $r(u,v,t)$ and $m(u,v,t)$,
+    respectively.
+  \end{itemize}
+
+  As in the previous exercises you can control most of the settings
+  through the ini-file \lstinline!exercise04.ini!. Get an overview of
+  the configurable settings, compile and run \lstinline!exercise04!.
+
+  The program writes output with the extension \lstinline!pvd!. This
+  is one of several ways to write VTK output for the instationary
+  case, c.f.~the documentation of tutorial03. The \lstinline!pvd!-file
+  can be visualized by ParaView and consists of a collection of the
+  corresponding \lstinline!vtu!-files. In order to visualize a 1D
+  solution, one can apply the ''Plot Over Line '' filter. Note that
+  our solution is always given by $u_0$.
+\end{Exercise}
+
+\begin{Exercise}{Try various time integrators, in particular the Crank-Nicolson method}
+  We want to examine the numerical solution under different time
+  discretization schemes, eg. Implicit Euler or Crank-Nicolson. In
+  order to change the time discretization scheme you will have to go
+  to the file \lstinline!driver.hh! and search for the line
+  \begin{lstlisting}
+Dune::PDELab::Alexander2Parameter<RF> pmethod;
+  \end{lstlisting}
+
+  Recall the previous \lstinline!exercise03! and change the one step
+  $\theta$ scheme in a way that corresponds to the Crank-Nicolson
+  method.
+
+  \textbf{Note that} you can compare the solutions in ParaView. To do
+  that you have to rename the second solution in
+  \lstinline!exercise04.ini! and use the "Append Attributes" filter
+  before "Plot Over Line". Do not forget to change the parameter
+  \lstinline!torder! in \lstinline!exercise04.ini! in order to get the
+  correct scheme.
+
+  \textbf{Remark} You can decide which dimension to investigate. A 2D
+  simulation will give you nicer pictures at the cost of longer run
+  times.
+\end{Exercise}
+
+
+\begin{Exercise}{Explore polynomial degrees greater than $2$ by
+    changing the blocking to \lstinline{none}.}
+  \textbf{Step 1:} Find the place where your Local Finite Element Maps
+  are created and make it possible to use polynomial degree 3
+
+  \begin{lstlisting}
+Dune::PDELab::PkLocalFiniteElementMap<GV,DF,double,deg> FEM;
+  \end{lstlisting}
+
+  Compile your program and check the results.
+
+  \textbf{Note that} \lstinline!deg! is a static template parameter.
+
+  \textit{The program should throw an assertion error during compilation.}
+
+  \textbf{Step 2:}
+
+  Before we start please have a look at the description of the driver
+  in \lstinline!tutorial04! and read the part that describes the
+  specification of an ordering when creating product spaces. Using
+  fixed block structure in ISTL requires that the number of degrees of
+  freedom per entity is constant for each geometry type. This is true
+  for polynomial degrees one and two but not for higher polynomial
+  degree!
+
+  To avoid segfaults you need to change
+  \begin{lstlisting}
+Dune::PDELab::istl::VectorBackend<Dune::PDELab::istl::Blocking::fixed> VBE;
+  \end{lstlisting}
+  to
+  \begin{lstlisting}
+Dune::PDELab::istl::VectorBackend<Dune::PDELab::istl::Blocking::none> VBE;
+  \end{lstlisting}
+  in  \lstinline!driver.hh!.
+\end{Exercise}
+
+\begin{Exercise}{Changing the Local Operator}
+  Now consider the elliptic projection as in Eriksson et
+  al. \cite{Eriksson}, namely applying the Laplacian to equation
+  \eqref{eq:2b}
+  \begin{equation}\label{eq:elip}
+    -\Delta \partial_t u_0 + \Delta u_1 = 0,
+  \end{equation}
+  which has the advantage of energy conservation but requires
+  additional smoothness properties.
+
+
+  The main work is now to change the local operators given in the file
+  \lstinline{wavefem.hh}. This is done in several steps:
+  \begin{itemize}
+  \item Copy the file \lstinline{wavefem.hh} to a new file and rename
+    it.
+  \item Rename the local operators in the new file, e.g.~change
+    \lstinline{WaveL2} to \lstinline{WaveElip}.
+  \item Include your new file in \lstinline{exercise04.cc} and change
+    the types of \lstinline{LOP} and \lstinline{TLOP} in
+    \lstinline{driver.hh}.
+  \begin{lstlisting}
+// Make instationary grid operator
+double speedofsound = ptree.get("problem.speedofsound",1.0);
+typedef WaveFEM<FEM> LOP;
+LOP lop(speedofsound);
+typedef WaveL2<FEM> TLOP;
+TLOP tlop;
+  \end{lstlisting}
+  \end{itemize}
+
+  After these preparations you need to implement the following change:
+  $$ \partial_t u_0 - u_1 = 0 \Rightarrow \Delta \partial_t u_0 -
+  \Delta u_1 = 0.$$
+
+  \begin{itemize}
+  \item In the spatial local operator, change:
+    $$ - u_1 = 0 \Rightarrow -  \Delta u_1 = 0$$
+
+    See how it is done for the $\Delta u_0$, we recall the
+    corresponding part of \lstinline{WaveFEM::alpha_volume()}:
+  \begin{lstlisting}
+// integrate both equations
+RF factor = ip.weight() * geo.integrationElement(ip.position());
+for (size_t i=0; i<lfsu0.size(); i++) {
+	r.accumulate(lfsu0,i,c*c*(gradu0*gradphi[i][0])*factor);
+	r.accumulate(lfsu1,i,-u1*phihat[i]*factor);
+}
+  \end{lstlisting}
+
+  \item In the temporal local operator, change:
+    $$ \partial_t u_0  = 0 \Rightarrow \Delta \partial_t u_0= 0$$
+
+    See how it is done for the $\Delta u_0$, we recall the
+    corresponding part of \lstinline{WaveL2::alpha_volume()}:
+  \begin{lstlisting}
+// integrate u*phi_i
+for (size_t i=0; i<lfsu0.size(); i++) {
+	r.accumulate(lfsu0,i,u1*phihat[i]*factor);
+	r.accumulate(lfsu1,i,u0*phihat[i]*factor);
+}
+  \end{lstlisting}
+
+  \item Do not forget to update the \lstinline{jacobian_volume()}
+    methods accordingly. As the problem is linear, this should not be
+    too difficult.
+  \end{itemize}
+\end{Exercise}
+
+
+\begin{Exercise}{Energy conservation}
+  If we multiply \eqref{eq:2a} by $u_1$ and \eqref{eq:elip} by $u_0$
+  and add, the terms $-(\Delta u_0,u_1 )$ and $(\Delta u_1,u_0 )$
+  cancel out, leading to the conclusion that the energy
+  $$E(t) = \|u_1\|^2 + \| \nabla u_0\|^2 $$ is constant in time.
+
+
+  Your task is to check the energy conservation for the elliptic
+  projection and Crank-Nicolson in time. You can use the following
+  PDELab utilities:
+  \begin{lstlisting}
+Dune::PDELab::SqrGridFunctionAdapter
+Dune::PDELab::integrateGridFunction
+Dune::PDELab::DiscreteGridFunctionGradient
+Dune::PDELab::SqrGridFunctionAdapter
+  \end{lstlisting}
+
+  If you have problems with this task check the online documentation
+  \url{https://www.dune-project.org/doxygen/pdelab/master/} or the
+  solution.
+\end{Exercise}
+
+
+\textbf{Additional task}\\
+If you are done with these exercises, you can play with the initial
+conditions. Use the following setting in one space dimension:
+\begin{itemize}
+\item Change the initial conditions to $\sin(2x)$ (implement it as a
+  lambda function)
+\item Change the domain size to $[0,\pi]$
+\end{itemize}
+
+
+\bibliographystyle{plain}
+\bibliography{exercise04.bib}
+
+\end{document}
+\grid

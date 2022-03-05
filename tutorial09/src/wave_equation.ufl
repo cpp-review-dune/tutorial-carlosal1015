@@ -1,0 +1,20 @@
+cell = quadrilateral
+
+V = VectorElement("CG", cell, 1)
+u0, u1 = TrialFunctions(V)
+v0, v1 = TestFunctions(V)
+
+c = 1.0
+
+mass = inner(u1, v0) * dx \
+     + inner(u0, v1) * dx
+
+r = c**2 * inner(grad(u0), grad(v0)) * dx \
+  - inner(u1, v1) * dx
+
+x = SpatialCoordinate(cell)
+g0 = Max(0, 1-8*sqrt((x[0]-0.375)**2+(x[1]-0.375)**2))
+g1 = 0
+
+interpolate_expression = g0, g1
+is_dirichlet = 1, 1

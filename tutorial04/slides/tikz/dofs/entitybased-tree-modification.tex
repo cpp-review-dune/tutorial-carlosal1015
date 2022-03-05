@@ -1,0 +1,113 @@
+\begin{tikzpicture}[level/.style={sibling distance=1.5cm,level distance=1.5cm},rn/.style={draw=niceblue,fill=niceblue!20, text height=\heightof{$A_1$},text depth=\depthof{$A_1$},minimum width=.7cm}]
+
+\node[rn] {\VS}
+child {
+  node[rn] {\VS[0]} edge from parent [dashed]
+}
+% child {
+%   node {$\cdots$} edge from parent [dashed]
+% }
+child {
+  node {$\cdots$} edge from parent [dashed]
+}
+child {
+  node[rn] {\VS[j_0]}
+  child {
+    node[rn] {\te[0]} edge from parent [dashed]
+  }
+  child {
+    node {$\cdots$} edge from parent [dashed]
+  }
+  child {
+    node[rn] {\te[i]}
+    child {
+      node[rn] {\VS[0]} edge from parent [dashed]
+    }
+    child {
+      node {$\cdots$} edge from parent [dashed]
+    }
+    child {
+      node {$\cdots$} edge from parent [dashed]
+    }
+    child {
+      node[rn] {\VS[j_1]}
+      child {
+        node {$\cdots$} edge from parent [dashed]
+      }
+      child {
+        node {$\cdots$} edge from parent [dashed]
+      }
+      child {
+        node {$\cdots$}
+        child {
+          node[rn] {\VS[0]} edge from parent [dashed]
+        }
+        child {
+          node {$\cdots$} edge from parent [dashed]
+        }
+        child {
+          node {$\cdots$} edge from parent [dashed]
+        }
+        child {
+          node[rn] {\VS[j_N]}
+          child {
+            node[rn] {$\varphi_0$} edge from parent [dashed]
+          }
+          child {
+            node {$\cdots$} edge from parent [dashed]
+          }
+          child {
+            node[rn] {$\varphi_k$}
+          }
+          child {
+            node {$\cdots$} edge from parent [dashed]
+          }
+          child {
+            node[rn] {$\varphi_n$} edge from parent [dashed]
+          }
+        }
+        child {
+          node {$\cdots$} edge from parent [dashed]
+        }
+        child {
+          node[rn] {\VS[N]} edge from parent [dashed]
+        }
+      }
+      child {
+        node {$\cdots$} edge from parent [dashed]
+      }
+    }
+    child {
+      node {$\cdots$} edge from parent [dashed]
+    }
+    child {
+      node[rn] {\VS[N]} edge from parent [dashed]
+    }
+  }
+  child {
+    node {$\cdots$} edge from parent [dashed]
+  }
+  child {
+    node {$\cdots$} edge from parent [dashed]
+  }
+  child {
+    node[rn] {\te[N]} edge from parent [dashed]
+  }
+}
+child {
+  node {$\cdots$} edge from parent [dashed]
+}
+child {
+  node {$\cdots$} edge from parent [dashed]
+}
+child {
+  node[rn] {\VS[N]} edge from parent [dashed]
+};
+
+\end{tikzpicture}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../diss-main"
+%%% End:

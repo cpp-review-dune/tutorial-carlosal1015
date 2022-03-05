@@ -1,0 +1,30 @@
+cell = triangle
+degree = 1
+V = FiniteElement("DG", cell, degree)
+u = TrialFunction(V)
+v = TestFunction(V)
+
+x = SpatialCoordinate(cell)
+dim = 2
+eta = 2
+g = x[0]*x[0] + x[1]*x[1]
+f = - 2*dim + eta*g*g
+
+def q(u):
+    return eta*u*u
+
+n = FacetNormal(cell)('+')
+
+gamma = 100
+
+r = inner(grad(u), grad(v))*dx \
+  + q(u)*v*dx \
+  - f*v*dx \
+  - inner(avg(grad(u)), n)*jump(v)*dS \
+  - jump(u)*inner(avg(grad(v)), n)*dS \
+  + gamma*jump(u)*jump(v)*dS \
+  - inner(grad(u), n)*v*ds \
+  - (u-g)*inner(grad(v), n)*ds \
+  + gamma*(u-g)*v*ds
+
+exact_solution = g

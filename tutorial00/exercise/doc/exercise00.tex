@@ -1,0 +1,164 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,total={150mm,240mm}]{geometry}
+\usepackage[american]{babel}
+
+\usepackage{float}
+\usepackage{babel}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{todonotes}
+
+
+\usepackage{listings}
+\definecolor{listingbg}{gray}{0.95}
+\lstset{
+  language=c++,
+  basicstyle=\ttfamily\small,
+  frame=single,
+  backgroundcolor=\color{listingbg},
+  breaklines=true,
+  postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}}
+}
+
+
+\newcommand{\vx}{\vec x}
+\newcommand{\grad}{\vec \nabla}
+\newcommand{\wind}{\vec \beta}
+\newcommand{\Laplace}{\Delta}
+\newcommand{\mycomment}[1]{}
+
+
+% Exercise stylesheet
+\usepackage{exercise}
+
+\title{\textbf{Exercises for Tutorial00}}
+\subtitle{Poisson Equation}
+\exerciselabel{Exercise}
+
+
+\begin{document}
+
+\exerciseheader
+
+\begin{Exercise}{Poisson Equation with Piecewise Linear Elements}
+
+In this exercise you will:
+\begin{itemize}
+\item Work on the problem presented in the tutorial and see how the
+  code works.
+\item Modify the implementation to solve a slightly different problem.
+\item Determine the convergence rate of the finite element method.
+\end{itemize}
+
+\begin{enumerate}
+\item {\sc Warming up}:\\
+  The code presented in this tutorial solves the following elliptic
+  equation with Dirichlet boundary conditions
+  \begin{align*}
+    \begin{array}{rcll}
+      -\Laplace u  & = & f & \text{ in } \Omega, \\
+      u & = & g & \text{ on } \partial\Omega,
+    \end{array}
+  \end{align*}
+  where
+  \begin{align*}
+    f(x) = -2d \quad\text{and}\quad  g(x) = \sum_{i=1}^d (x)_i^2.
+  \end{align*}
+
+  First of all check that $u(x) = \sum_{i=1}^d (x)_i^2$ is a solution
+  for any dimension $d$.
+
+  This program solves this equation for $d=2$. The executable can be
+  found in the build directory of this exercise:
+  \begin{lstlisting}
+cd dune-course/release-build/dune-pdelab-tutorials/tutorial00/exercise/task
+  \end{lstlisting}
+  You can run the program with \lstinline{./exercise00}.  Some
+  parameters of the program are controlled by the ini file
+  \lstinline{src_dir/tutorial00.ini}:
+  \lstinputlisting[language=bash]{../task/tutorial00.ini}
+
+  Here you may set the mesh refinement and the names of the input and
+  output files. Run the program with different refinement
+  levels. Visualize the solution in ParaView, use the Calculator
+  filter to visualize the difference $|u-u_h|$ and determine the
+  maximum error. Note that $u$ and $u_h$ are called \lstinline{exact}
+  and \lstinline{fesol} in the ParaView output.
+
+\item {\sc Solving a new problem}:\\
+  Now consider
+  \begin{align}
+    f(x) =  -\sum_{i=1}^d 6(x)_i \quad\text{and}\quad  g(x) = \sum_{i=1}^d (x)_i^3
+  \end{align}
+  and check that $u(x)=\sum_{i=1}^d (x)_i^3$ solves the PDE. Implement
+  the new $f$ and $g$, rebuild and rerun your program.
+
+\item {\sc Analysis of finite element error}:\\
+  Produce a sequence of output files for different levels of mesh
+  refinements $0, 1, 2, \ldots$ with suitable output
+  filenames. Visualize the error $|u-u_h|$ in Para\-View and determine
+  the maximum error on each level.  If you want you can also try to
+  calculate the L2-norm of the error in ParaView and determine the
+  convergence rate by hand. In a later exercise you will see how to
+  calculate the L2-norm directly in the c++ source.
+
+\item {\sc Use a different solver}:\\
+  You may also try to exchange the iterative linear solver by
+  replacing it with the following lines in the driver file
+  \lstinline{driver.hh}:
+  \begin{lstlisting}
+typedef Dune::PDELab::ISTLBackend_SEQ_BCGS_SSOR LS;
+LS ls(5000,true);
+  \end{lstlisting}
+  Compare the number of iterations which is given by the following lines
+  in the output (here we have 12 iterations):
+  \begin{lstlisting}
+=== CGSolver
+12       1.9016e-09
+=== rate=0.144679, T=0.02362, TIT=0.00196833, IT=12
+  \end{lstlisting}
+\end{enumerate}
+\end{Exercise}
+
+
+\begin{Exercise}{Extending the Local Operator}
+Now consider the extended equation of the form
+\begin{align}
+    \begin{array}{rcll}
+      -\nabla\cdot (k(x) \nabla u) +a(x) u  & = & f & \text{ in } \Omega, \\
+      u & = & g & \text{ on } \partial\Omega,
+    \end{array}
+\end{align}
+with scalar functions $k(x)$, $a(x)$.
+
+\begin{enumerate}
+\item In the first step show that the weak formulation of the problem
+  involves the new bilinear form
+  \begin{align}
+    a(u,v) = \int_\Omega k(x) \nabla u(x) \cdot \nabla v(x) + a(x) u(x) v(x) \,dx .
+  \end{align}
+\item The main work is to extend the local operator given by the class
+  \lstinline{PoissonP1}. This can be done in several steps:
+  \begin{itemize}
+  \item Copy the class \lstinline{PoissonP1} to a new file and rename it.
+  \item Provide analytic functions for $k(x)$ and $a(x)$ and pass
+    grid functions to the local operator like it is done for $f(x)$.
+  \item Extend the local operator to first handle $k(x)$ by assuming the
+    function $k(x)$ to be \emph{constant} on mesh elements.
+  \item Now extend the local operator to handle $a(x) u(x)$. Also assume
+    the function $a(x)$ to be \emph{constant} on mesh elements.
+  \end{itemize}
+\item Plug in your new local operator in the driver code and test it.
+  In the solution the code is tested for $k(x)=2(x)_1$,
+  $a(x)=\sum_{i=1}^{d}(x)_i$ and $g=\sum_{i=1}^d (x)_i^3$ by choosing
+  the right hand side $f(x)$ in such a way that $u(x)=\sum_{i=1}^d
+  (x)_i^3$ solves the PDE.
+\end{enumerate}
+\end{Exercise}
+
+
+\end{document}

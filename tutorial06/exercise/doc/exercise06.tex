@@ -1,0 +1,182 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,total={150mm,240mm}]{geometry}
+\usepackage[american]{babel}
+
+\usepackage{float}
+\usepackage{babel}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{todonotes}
+\usepackage{hyperref}
+
+
+\usepackage{listings}
+\definecolor{listingbg}{gray}{0.95}
+\lstset{language=C++,basicstyle=\ttfamily\small,frame=single,backgroundcolor=\color{listingbg}}
+% \lstset{language=C++, basicstyle=\ttfamily,
+%   keywordstyle=\color{black}\bfseries, tabsize=4, stringstyle=\ttfamily,
+%   commentstyle=\it, extendedchars=true, escapeinside={/*@}{@*/}}
+
+
+\newcommand{\vx}{\vec x}
+\newcommand{\grad}{\vec \nabla}
+\newcommand{\wind}{\vec \beta}
+\newcommand{\Laplace}{\Delta}
+\newcommand{\mycomment}[1]{}
+
+
+% Exercise stylesheet
+\usepackage{exercise}
+
+\title{\textbf{Exercises for Tutorial06}}
+\subtitle{Parallelism}
+\exerciselabel{Exercise}
+
+
+\begin{document}
+
+\exerciseheader
+
+This exercise will show you two things:
+\begin{enumerate}
+\item For common problems it is really easy to run your code in
+  parallel. Almost everything is done by PDELab and you only have to make
+  some small changes compared to the sequential code.
+\item If you have a more complicated problem this exercise will give
+  you some hints how to start implementing it.
+\end{enumerate}
+
+Some remarks regarding parallel programs in DUNE:
+\begin{itemize}
+\item Parallel DUNE programs utilize the \emph{Message Passing
+    Interface} MPI. Many different MPI implementations are known to
+  work well with DUNE.
+\item By default CMake builds your programs for parallel use so you
+  can build the exercises for this tutorial the same way as usual.
+\item To actually run the parallel program, you need to call the
+  \lstinline{mpirun} command of your MPI implementation. If you want
+  to run exercise06-1 with two processes you could use
+  \begin{lstlisting}
+mpirun --oversubscribe -np 2 ./exercise06-1
+  \end{lstlisting}
+  Note that \lstinline{--oversubscribe} may be necessary if the number of processes you want to start exceeds the number of your physical processor cores.
+\item VTK output from \lstinline{VTKWriter} does not need any special
+  treatment in the parallel case. When applied to a
+  \lstinline{GridView} of a parallel grid each process will produce
+  output corresponding to his local sub grid (\lstinline{*.vtu}
+  files).  Furthermore the process of zero id will create a file
+  (\lstinline{*.pvtu}) which corresponds to the global grid.
+\end{itemize}
+
+\begin{Exercise}{Running the Code from the Tutorial}
+  In this exercise you will run the code from the tutorial in parallel
+  and make some simple changes.
+  \begin{enumerate}
+  \item First run the code from \lstinline{exercise06-1} and try out
+    different settings. Don't forget to use \lstinline{mpirun} if you
+    want to use more than one process.
+  \item Right now the program calculates the squared L2 error separately on
+    every process without communicating. Use
+    \lstinline{CollectiveCommunication}
+    \footnote{\href{https://www.dune-project.org/doxygen/pdelab/master/classDune\_1\_1CollectiveCommunication.html}{https://www.dune-project.org/doxygen/pdelab/master/classDune\_1\_1CollectiveCommunication.html}}
+    to calculate the sum over the local L2 errors (squared).
+  \item You could also try different solver backends.
+  \end{enumerate}
+\end{Exercise}
+
+\begin{Exercise}{Communication over the Grid}
+  In this exercise you will learn how to communicate data using overlapping
+  grids and a \lstinline{DataHandle}. This can be useful if you need to write a
+  parallel application and if you need to do something that is not covered by
+  the \lstinline{CollectiveCommunication} class.
+
+  Communication in the overlap happens entity-wise. That means you have entity
+  related data and each entity in the overlap can send this data to the
+  corresponding entity of the other processor. You can control which
+  codim-entities should send data and for which part of the overlap
+  communication will happen (see partition types in the slides for tutorial06).
+
+  The source code for this exercise can be found in the file
+  \lstinline{exercise06-2.cc}. Right now the code does the following:
+  \begin{itemize}
+  \item It creates an overlapping \lstinline{YaspGrid} in two
+    dimensions. You can set the overlap in the ini file
+    \lstinline{datahandle.ini}.
+  \item The communication happens in the file
+    \lstinline{communication.hh}.  We create the vector
+    \lstinline{std::vector<int> data} that stores one int for every
+    entity of a given codimension. If you for example choose
+    \lstinline{codim=1} in the ini file the data vector will have one
+    entry for every edge of the current process.
+  \item We set all entries of the data vector equal to the rank of the
+    current process, i.e. on rank zero all entries will be zero on
+    rank one all entries will be one and so on.
+  \item With
+    \begin{lstlisting}
+// Data handle to communicate the data
+// of each edge to the next processor.
+using DH = ExampleDataHandle<IndexSet, decltype(data)>;
+DH dh(indexSet, data, cdim);
+    \end{lstlisting}
+    we create a data handle. The class \lstinline{ExampleDataHandle}
+    is defined above.
+  \item Communication happens by calling the \lstinline{communicate}
+    method of the \lstinline{GridView}:
+    \begin{lstlisting}
+gv.communicate(dh,Dune::All_All_Interface,
+               Dune::ForwardCommunication);
+    \end{lstlisting}
+    This methods needs a \lstinline{DataHandle}, a communication
+    \lstinline{InterfaceType} and a
+    \lstinline{CommunicationDirection}. More information about these
+    can be found in the documentation
+    \footnote{\href{http://www.dune-project.org/doc-pdelab-master/doxygen/html/group\_\_GIRelatedTypes.html}{http://www.dune-project.org/doc-pdelab-master/doxygen/html/group\_\_GIRelatedTypes.html}}
+    but we don't need that for completing the exercise.
+  \end{itemize}
+  Our goal is to communicate the rank stored in the data vector to the
+  other process in the overlap regions. Right now the
+  \lstinline{ExampleDataHandle} on top of the file does not
+  communicate anything. Let's change that!
+
+  \begin{enumerate}
+  \item Remove the comments from these lines:
+    \begin{lstlisting}
+// switch (communicationType){
+// case 1: gv.communicate(...); break;
+// case 2: gv.communicate(...); break;
+// case 3: gv.communicate(...); break;
+// case 4: gv.communicate(...); break;
+// default: gv.communicate(...);
+// }
+    \end{lstlisting}
+  \item All methods the \lstinline{DataHandle} needs are already there
+    but the implementations are missing.  With the comments from the
+    source code it shouldn't be too hard to fill in the missing
+    peaces.
+  \item After implementing the missing parts or copying from the
+    solution try to figure out what the communication
+    \lstinline{InterfaceType} means. Run your program with two
+    processes:
+    \begin{lstlisting}
+mpirun --oversubscribe -np 2 ./exercise06-2
+    \end{lstlisting}
+    Try different communication interfaces by changing the value of
+    \lstinline{type} in the ini file:
+    \begin{lstlisting}
+[communication]
+type = 5
+    \end{lstlisting}
+    Find out where communication happens for different communication
+    interfaces by looking at the program output and the comments in
+    the source code. Drawing the grid with overlap is highly
+    recommended. When you know what's going on try different
+    codimensions or larger grids with more overlap.
+  \end{enumerate}
+\end{Exercise}
+
+
+\end{document}

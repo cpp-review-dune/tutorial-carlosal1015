@@ -1,0 +1,44 @@
+\begin{tikzpicture}[level/.style={sibling distance=3cm/#1,level distance=1cm}]
+  \def\colsep{4em}
+  \matrix (mat) {
+    \scoped[every node/.style={draw=niceblue,fill=niceblue!20, text height=\heightof{$A_1$},text depth=\depthof{$A_1$},minimum width=.7cm}]
+  \node {$^F_{P(L)}U$}
+  child {
+    node {$^F_{P(0)} U_1$}
+  }
+  child {
+    node {$^F_0 U_2$}
+  }; &
+    \node (m12) [minimum width=\colsep] {}; &
+    \scoped[every node/.style={draw=niceblue,fill=niceblue!20, text height=\heightof{$A_1$},text depth=\depthof{$A_1$},minimum width=.7cm},level/.style={sibling distance=3cm,level distance=1cm}]
+  \node {$M_P$}
+  child {
+    node {$M_L$}
+    child {
+      node {$M_P$}
+      child {
+        node {$M_{\tess}$}
+        child {
+          node {$M_0$}
+        }
+      }
+    }
+    child {
+      node {$M_{\tess}$}
+      child {
+        node {$M_0$}
+      }
+    }
+  }; \\
+    & \node (m22) [minimum width=\colsep] {}; \\
+};
+
+\draw (m12.north) -- (m22.north);
+
+\end{tikzpicture}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../diss-main"
+%%% End:

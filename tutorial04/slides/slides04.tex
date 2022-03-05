@@ -1,0 +1,463 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% A general frame for lecture slides and lecture notes in one file
+% using LaTeX beamer
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[ignorenonframetext,11pt]{beamer}
+%\usepackage[ngerman]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts}
+
+
+% only presentation
+\mode<presentation>
+{
+  \usetheme{default}
+%  \usecolortheme{crane}
+  \setbeamercovered{transparent}
+%  \setlength{\parindent}{0pt}
+%  \setlength{\parskip}{1.35ex plus 0.5ex minus 0.3ex}
+%  \usefonttheme{structuresmallcapsserif}
+  \usefonttheme{structurebold}
+  \setbeamertemplate{theorems}[numbered]
+  \usepackage{amscd}
+}
+
+% all after
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usepackage{pgfplots,adjustbox}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{psfrag}
+\usepackage{listings}
+\lstset{language=C++, basicstyle=\ttfamily,
+  keywordstyle=\color{black}\bfseries, tabsize=4, stringstyle=\ttfamily,
+  commentstyle=\it, extendedchars=true, escapeinside={/*@}{@*/}}
+\usepackage{curves}
+%\usepackage{epic}
+\usepackage{calc}
+%\usepackage{picinpar}
+%\usepackage{fancybox}
+%\usepackage{xspace}
+\usepackage{enumerate}
+\usepackage{algpseudocode}
+\usepackage{color}
+\usepackage{bold-extra}
+\usepackage{bm}
+\usepackage{stmaryrd}
+%\usepackage[squaren]{SIunits}
+\usepackage{nicefrac}
+
+\usepackage{fancyvrb,bbm,xspace}
+\usepackage{lmodern}
+\usepackage{fancyvrb,bbm,xspace}
+\usepackage[binary-units]{siunitx}
+\usepackage{xcolor,tabu}
+
+\definecolor{niceblue}{rgb}{0.122,0.396,0.651}   %% 31, 101, 166 or #1F65A6
+\definecolor{niceorange}{RGB}{255,205,86}        %% #FFCD56
+\definecolor{nicered}{RGB}{220,20,60}                      %% rgb(220, 20, 60)
+\definecolor{niceteal}{HTML}{00A9AB}
+\definecolor{niceviolet}{HTML}{820080}
+
+\definecolor{niceblueLight}{HTML}{91CAFB}
+\definecolor{niceblueVeryLight}{HTML}{DDEFFF}
+
+\usepackage{dsfont}
+
+%\newcommand{\hlineabove}{\rule{0pt}{2.6ex}}
+%\newcommand{\hlinebelow}{\rule[-1.2ex]{0pt}{0pt}}
+
+%\usecolortheme[RGB={37,75,123}]{structure}
+% \definecolor{structurecolor}{rgb}{0.905,0.318,0.071}
+
+% \setbeamercolor{frametitle}{fg=black,bg=}
+% \setbeamercolor{sidebar left}{fg=,bg=}
+
+% \setbeamertemplate{headline}{\vskip4em}
+% \setbeamersize{sidebar width left=.9cm}
+
+% \setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{blocks}[rounded][shadow=true]
+%\setbeamertemplate{itemize items}[square]
+
+\mode<presentation>
+{
+\theoremstyle{definition}
+}
+\newtheorem{Def}{Definition}%[section]
+\newtheorem{Exm}[Def]{Example}
+\newtheorem{Lem}[Def]{Lemma}
+\newtheorem{Rem}[Def]{Remark}
+\newtheorem{Rul}[Def]{Rule}
+\newtheorem{Thm}[Def]{Theorem}
+\newtheorem{Cor}[Def]{Corollary}
+\newtheorem{Obs}[Def]{Observation}
+\newtheorem{Ass}[Def]{Assumption}
+\newtheorem{Pro}[Def]{Property}
+\newtheorem{Alg}[Def]{Algorithm}
+\newtheorem{Prp}[Def]{Proposition}
+\newtheorem{Lst}[Def]{Listing}
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>
+    \frametitle{Contents}
+    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=hide/hide/hide]
+%\tableofcontents[currentsection]
+  \end{frame}
+}
+
+% Title definition
+\mode<presentation>
+{
+  \title{DUNE PDELab Tutorial 04\\
+  {\small Finite Elements for the Wave Equation}}
+  \author{Peter Bastian \and Steffen Müthing}
+  \institute[]
+  {
+   Interdisziplinäres Zentrum für Wissenschaftliches Rechnen\\
+   Im Neuenheimer Feld 205, D-69120 Heidelberg \\[6pt]
+  }
+  \date[\today]{\today}
+}
+
+
+% logo nach oben
+\mode<presentation>
+{
+% No navigation symbols and no lower logo
+\setbeamertemplate{sidebar right}{}
+
+% logo
+\newsavebox{\logobox}
+\sbox{\logobox}{%
+    \hskip\paperwidth%
+    \rlap{%
+      % putting the logo should not change the vertical possition
+      \vbox to 0pt{%
+        \vskip-\paperheight%
+        \vskip0.35cm%
+        \llap{\insertlogo\hskip0.1cm}%
+        % avoid overfull \vbox messages
+        \vss%
+      }%
+    }%
+}
+
+\addtobeamertemplate{footline}{}{%
+    \usebox{\logobox}%
+}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% now comes the individual stuff lecture by lecture
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\frame{\titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{frame}
+\frametitle{Example Problem}
+ In this tutorial we solve the wave equation formulated as a first order
+in time system. This way the example serves as a model for the
+treatment of systems of partial differential equations in PDELab.
+
+\begin{subequations}
+\label{eq:WaveEquation}
+\begin{align}
+\partial_{tt} u-c^2\Delta u  &= 0 &&\text{in $\Omega\times\Sigma$},\\
+u &= 0 &&\text{on $\partial\Omega$},\\
+u &= q &&\text{at $t=0$},\\
+\partial_t u &= w &&\text{at $t=0$},
+\end{align}
+\end{subequations}
+where $c$ is the speed of sound.
+\end{frame}
+\begin{frame}
+Renaming $u_0=u$ and introducing $u_1=\partial_t u_0 =\partial_t u$ we can write the wave equation as a system of two equations:
+\begin{subequations}
+\label{eq:SystemForm1}
+\begin{align}
+\partial_t u_1 - c^2\Delta u_0 &=0 &&\text{in $\Omega\times\Sigma$}, \label{eq:2a}\\
+\partial_t u_0 - u_1 &=0 &&\text{in $\Omega\times\Sigma$}, \label{eq:2b}\\
+u_0 &= 0 &&\text{on $\partial\Omega$},\\
+u_1 &= 0 &&\text{on $\partial\Omega$},\\
+u_0 &= q &&\text{at $t=0$},\\
+u_1 &= w &&\text{at $t=0$}.
+\end{align}
+\end{subequations}
+Since $u_0=u=0$ on the boundary we also have $\partial_t u = u_1 = 0$ on the boundary.
+Alternatively, omit the boundary condition on $u_1$.
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Alternative Formulations (I)}
+Eriksson et al. in \cite{Eriksson} apply the Laplacian to
+equation \eqref{eq:2b}
+\begin{equation}
+\Delta \partial_t u_0 - \Delta u_1 = 0
+\end{equation} \label{eq:Eriksson}
+which has advantages for energy conservation but requires additional smoothness
+properties.
+\end{frame}
+
+\begin{frame}
+\frametitle{Alternative Formulations (II)}
+Introduce the abbreviations
+$q=\partial_t u$ and $w=-\nabla u$, so $\partial_{tt} u - c^2 \Delta u =
+\partial_{tt} u - c^2 \nabla\cdot\nabla u = \partial_{t} q + c^2 \nabla\cdot w = 0$.
+Taking partial derivatives of the introduced variables we obtain $\partial_{x_i} q=
+\partial_{x_i} \partial_t u = \partial_t \partial_{x_i}  u = - \partial_t w_i$. This results
+in a first-order hyperbolic system of PDEs for $q$ and $w$
+\begin{align*}
+\partial_t q + c^2 \nabla\cdot w &= 0\\
+\partial_t w + \nabla q &= 0
+\end{align*}
+which are called equations of linear acoustics \cite{LeVeque}. This formulation
+is physically more relevant. It can be modified to handle discontinuous material
+properties and supports upwind finite volume methods.
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Weak Formulation}
+
+Multiplying \eqref{eq:2a}
+with the test function $v_0$ and \eqref{eq:2b} with the test function $v_1$
+and using integration by parts we arrive at the weak formulation: Find $(u_0(t),u_1(t))\in
+U_0\times U_1$ s.t.
+\begin{align}
+  d_t (u_1,v_0)_{0,\Omega} + c^2 (\nabla u_0, \nabla v_0)_{0,\Omega} &=
+  0 \quad \forall v_0 \in U_0 \notag \\
+  d_t (u_0,v_1)_{0,\Omega} - (u_1,v_1)_{0,\Omega} &= 0 \quad \forall
+  v_1 \in U_1 \label{eq:WeakFormSystem}
+\end{align}
+where we used the notation of the $L^2$ inner product $(u,v)_{0,\Omega} = \int_\Omega
+u v \, dx$.
+\end{frame}
+
+\begin{frame}
+An equivalent formulation to (\ref{eq:WeakFormSystem}) that
+hides the system structure reads as follows:
+\begin{equation}
+\label{eq:WeakForm}
+\begin{split}
+d_t &\left[ (u_0,v_1)_{0,\Omega} + (u_1,v_0)_{0,\Omega}\right] \\
+&\hspace{6mm}+ \left[ c^2 (\nabla u_0,\nabla v_0)_{0,\Omega} -(u_1,v_1)_{0,\Omega} \right] = 0
+\quad \forall (v_0,v_1)\in U_0\times U_1
+\end{split}
+\end{equation}
+With the latter we readily identify the temporal and spatial residual
+forms:
+\begin{align}
+m^{\text{WAVE}}((u_0,u_1),(v_0,v_1)) &= (u_0,v_1)_{0,\Omega} + (u_1,v_0)_{0,\Omega},
+\label{eq:TemporalResForm}\\
+r^{\text{WAVE}}((u_0,u_1),(v_0,v_1)) &= c^2 (\nabla u_0,\nabla
+v_0)_{0,\Omega} - (u_1,v_1)_{0,\Omega} \; . \label{eq:SpatialResForm}
+\end{align}
+\end{frame}
+
+
+\begin{frame}{Trees of Function spaces}
+  \begin{columns}
+    \begin{column}{0.6\textwidth}
+$U = \bigl(V(\Omega_S)\bigr)^d \times P(\Omega_S) \times \Phi(\Omega_D)$
+
+\begin{itemize}
+\item Computer science way of representing mathematical  expressions: \structure{Trees}
+\item Expose internal nodes to users
+  \begin{itemize}
+  \item {\small Enable recursive bottom-up construction}
+  \item {\small Extract subtrees to pass to legacy subproblem code}
+  \end{itemize}
+\item Tree structure mostly static after construction
+  \begin{itemize}
+  \item {\small Nodes are C++ templates with children as template arguments}
+  \item {\small Allows extensive compiler optimizations, including inlining of tree traversals}
+  \end{itemize}
+\end{itemize}
+
+    \end{column}
+    \begin{column}{0.4\textwidth}
+\begin{tikzpicture}
+    [every node/.style={draw=niceblue,fill=niceblue!20, minimum width=.7cm}]
+  \node {$U$}
+  child {
+    node {TH}
+      child {
+        node  {$V$}
+        child {
+          node  {$V_x$}
+        }
+        child {
+          node  {$V_y$}
+        }
+        child {
+          node  {$V_z$}
+        }
+      }
+      child {
+        node  {$P$}
+      }
+    }
+  child {
+    node {$\Phi$}
+  };
+\end{tikzpicture}
+
+    \end{column}
+  \end{columns}
+
+
+\end{frame}
+
+\begin{frame}{Linear Algebra}
+
+    Given an assembled residual $r = \mathcal{R}(\vec{u_0})$ and its Jacobian $A = \nabla\mathcal{R}_h$, we have to solve the linear problem
+    \begin{equation*}
+      A z = r
+    \end{equation*}
+    to obtain a correction and calculate $u = u_0 - z$.\\
+  \emph{Several options}
+  \begin{description}
+  \item[Monolithic solve] of $A z = r$
+  \end{description}
+  \begin{itemize}
+  \item No stability problems
+  \item Often very difficult with standard iterative solvers
+  \end{itemize}
+  \begin{description}
+  \item[Subdomain Iteration] Exploit problem structure
+  \end{description}
+\begin{equation*}
+  \begin{pmatrix}
+    A_L & 0 \\
+    0  & A_R \\
+  \end{pmatrix}
+  \begin{pmatrix}
+    z_L \\ z_R \\
+  \end{pmatrix}
+  =
+  \begin{pmatrix}
+    r_L \\ r_R \\
+  \end{pmatrix}
+\end{equation*}
+\begin{itemize}
+\item Stability can be problematic
+\item Does not require monolithic code base
+\item Matrix / vector data structures must contain structure for good performance
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Index Merging -- Example}
+  \begin{columns}
+    \begin{column}{0.5\textwidth}
+      \begin{itemize}
+      \item Two $Q_1$ spaces on common mesh
+      \item Each space has canonical order defined by vertex iteration
+      \item Two merging strategies
+        \structure{Lexicographic:} Preserve structure of individual problems, separate matrix blocks for coupling\\
+        \structure{Interleaved:} Regard problem as vector-valued version of scalar problem
+      \end{itemize}
+% \tikzexternalenable
+% \resizebox{\textwidth}{!}{
+% \input{tikz/dofs/lexicographicmatrix.tex}
+% \input{tikz/dofs/interleavedmatrix.tex}
+% }
+% \tikzexternaldisable
+
+    \end{column}
+    \begin{column}{0.5\textwidth}
+{\Large
+\begin{equation*}
+U = U_1 \times U_2
+\end{equation*}}\vspace*{.5em}
+\resizebox{\textwidth}{!}{
+\input{tikz/dofs/lexicographic.tex}
+}
+
+    \end{column}
+  \end{columns}
+\end{frame}
+
+
+\begin{frame}{Merging + Blocking}
+  \begin{columns}
+    \begin{column}{0.6\textwidth}
+      \begin{itemize}
+      \item Merging can be repeated at every tree node\\
+{\small $\Rightarrow$ recursive construction of index structure from function space structure}
+\item Also support \structure{blocking} during merging
+{\small
+  \begin{itemize}
+  \item Large blocks for extracting subproblem matrices
+  \item Small blocks for block-aware preconditioners and
+    reduced memory usage
+  \end{itemize}
+}
+      \end{itemize}
+%\vspace*{2em}
+\resizebox{\textwidth}{!}{
+\input{tikz/dofs/lexicographicmatrix.tex}
+\input{tikz/dofs/interleavedmatrix.tex}
+}
+    \end{column}
+    \begin{column}{0.4\textwidth}
+\resizebox{0.8\textwidth}{!}{
+  \input{tikz/dofs/dgentity-unblocked-matrix}
+}
+\ \\[1em]
+\resizebox{0.8\textwidth}{!}{
+  \input{tikz/dofs/dgentity-blocked-matrix}
+}
+
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}
+\frametitle{Realization in PDELab}
+\begin{enumerate}[1)]
+\item The ini-file
+\lstinline{tutorial04.ini} holds parameters
+controlling the execution.
+\item Main file \lstinline{tutorial04.cc} includes the necessary C++,
+DUNE and PDELab header files;
+contains \lstinline{main} function;
+instantiates DUNE grid objects and calls the \lstinline{driver} function
+\item Function \lstinline{driver} in file \lstinline{driver.hh} instantiates
+the necessary PDELab classes and finally solves the problem.
+\item File \lstinline{wavefem.hh} contains the local operator classes
+\lstinline{WaveFEM} and \lstinline{WaveL2} realizing the spatial
+and temporal residual forms.
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\bibliographystyle{plain}
+\bibliography{slides04.bib}
+\end{frame}
+
+\end{document}

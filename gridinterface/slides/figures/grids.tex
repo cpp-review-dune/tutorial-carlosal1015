@@ -1,0 +1,80 @@
+\documentclass{beamer}
+\usepackage[ngerman]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+\usepackage{psfrag}
+\setbeamertemplate{sidebar right}{}
+
+\begin{document}
+
+\begin{frame}
+  \begin{columns}[t]
+    \begin{column}{0.3\textwidth}
+      \begin{center}
+        \psfrag{Grid1}{\small structured}
+        \includegraphics[width=0.5\textwidth]{grid1}
+      \end{center}
+    \end{column}
+    \begin{column}{0.3\textwidth}
+      \begin{center}
+        \psfrag{Grid2}{\small conforming}
+        \includegraphics[width=0.5\textwidth]{grid2}
+      \end{center}
+    \end{column}
+    \begin{column}{0.3\textwidth}
+      \begin{center}
+        \psfrag{Grid3}{\small non conforming}
+        \includegraphics[width=0.5\textwidth]{grid3}
+      \end{center}
+    \end{column}
+  \end{columns}
+  \begin{columns}[t]
+    \begin{column}{0.3\textwidth}
+      \begin{center}
+        \psfrag{Grid4}{\small nested, 1D}
+        \includegraphics[width=0.7\textwidth]{grid4}
+      \end{center}
+    \end{column}
+    \begin{column}{0.3\textwidth}
+      \begin{center}
+        \psfrag{Grid5}{\small red-green, bisektion}
+        \includegraphics[width=0.5\textwidth]{grid5}
+      \end{center}
+    \end{column}
+    \begin{column}{0.3\textwidth}
+      \begin{center}
+        \psfrag{Grid6}{\small manifolds}
+        \includegraphics[width=0.7\textwidth]{grid6}
+      \end{center}
+    \end{column}
+  \end{columns}
+  \begin{columns}[t]
+    \psfrag{Grid7}{\small parallel data decomposition}
+    \begin{column}{0.3\textwidth}
+      \begin{center}
+        \includegraphics[width=0.5\textwidth]{grid7}
+      \end{center}
+    \end{column}
+    \begin{column}{0.3\textwidth}
+      \begin{center}
+        \psfrag{Grid8}{\small periodic}
+        \includegraphics[width=0.6\textwidth]{grid8}
+      \end{center}
+    \end{column}
+    \begin{column}{0.3\textwidth}
+      \begin{center}
+        \psfrag{Grid9}{\small mixed dimensions}
+        \includegraphics[width=0.7\textwidth]{grid9}
+      \end{center}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

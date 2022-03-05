@@ -1,0 +1,1299 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   baseProfile="full"
+   id="body"
+   width="253.48018"
+   height="129.07277"
+   viewBox="0 0 1 1"
+   preserveAspectRatio="none"
+   sodipodi:version="0.32"
+   inkscape:version="0.45.1"
+   sodipodi:docname="entities.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:docbase="/home/christi/UniStuttgart/dune-course/docs/figures">
+  <metadata
+     id="metadata496">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs494" />
+  <sodipodi:namedview
+     inkscape:window-height="1125"
+     inkscape:window-width="1600"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="1.598847"
+     inkscape:cx="86.580355"
+     inkscape:cy="103.83558"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:current-layer="body" />
+  <title
+     id="title3">SVG drawing</title>
+  <desc
+     id="desc5">This was produced by version 4.2 of GNU libplot, a free library for exporting 2-D vector graphics.</desc>
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon9"
+     points="330.94,524.24 302.59,481.73 301.66,482.36 330.01,524.9 330.94,524.24 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon11"
+     points="330.94,524.24 302.59,481.73 301.66,482.36 330.01,524.9 330.94,524.24 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon13"
+     points="330.94,425.03 302.59,382.52 301.66,383.15 330.01,425.69 330.94,425.03 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon15"
+     points="330.94,425.03 302.59,382.52 301.66,383.15 330.01,425.69 330.94,425.03 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon17"
+     points="337.33,450.14 338.47,450.14 338.47,521 337.33,521 337.33,450.14 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon19"
+     points="337.33,450.14 338.47,450.14 338.47,521 337.33,521 337.33,450.14 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon21"
+     points="294.52,386.09 295.66,386.09 295.66,456.95 294.52,456.95 294.52,386.09 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon23"
+     points="294.52,386.09 295.66,386.09 295.66,456.95 294.52,456.95 294.52,386.09 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon25"
+     points="339.52,533.11 339.52,533.2 339.52,533.27 339.49,533.39 339.49,533.48 339.46,533.57 339.43,533.66 339.4,533.72 339.37,533.81 339.34,533.9 339.31,533.99 339.25,534.04 339.22,534.14 339.16,534.23 339.1,534.26 339.04,534.32 339.01,534.41 338.95,534.47 338.89,534.53 338.83,534.59 338.74,534.61 338.68,534.68 338.59,534.74 338.5,534.77 338.47,534.77 338.38,534.79 338.29,534.82 338.2,534.86 338.14,534.86 338.05,534.89 337.99,534.89 337.9,534.89 337.9,534.89 337.81,534.89 337.72,534.89 337.63,534.86 337.57,534.86 337.48,534.82 337.42,534.79 337.33,534.77 337.27,534.77 337.18,534.74 337.09,534.68 337.03,534.61 336.94,534.59 336.91,534.53 336.85,534.47 336.79,534.41 336.73,534.32 336.67,534.26 336.61,534.23 336.55,534.14 336.52,534.04 336.46,533.99 336.43,533.9 336.43,533.81 336.4,533.72 336.37,533.66 336.34,533.57 336.31,533.48 336.31,533.39 336.28,533.27 336.28,533.2 336.28,533.11 336.28,533.11 336.28,533.03 336.28,532.94 336.31,532.82 336.31,532.73 336.34,532.66 336.37,532.57 336.4,532.49 336.43,532.4 336.43,532.31 336.46,532.22 336.52,532.19 336.55,532.1 336.61,532.01 336.67,531.95 336.73,531.89 336.79,531.79 336.85,531.74 336.91,531.68 336.94,531.65 337.03,531.61 337.09,531.56 337.18,531.5 337.27,531.47 337.33,531.44 337.42,531.41 337.48,531.38 337.57,531.35 337.63,531.35 337.72,531.32 337.81,531.32 337.9,531.32 337.9,531.32 337.99,531.32 338.05,531.32 338.14,531.35 338.2,531.35 338.29,531.38 338.38,531.41 338.47,531.44 338.5,531.47 338.59,531.5 338.68,531.56 338.74,531.61 338.83,531.65 338.89,531.68 338.95,531.74 339.01,531.79 339.04,531.89 339.1,531.95 339.16,532.01 339.22,532.1 339.25,532.19 339.31,532.22 339.34,532.31 339.37,532.4 339.4,532.49 339.43,532.57 339.46,532.66 339.49,532.73 339.49,532.82 339.52,532.94 339.52,533.03 339.52,533.11 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon27"
+     points="339.52,533.11 339.52,533.2 339.52,533.27 339.49,533.39 339.49,533.48 339.46,533.57 339.43,533.66 339.4,533.72 339.37,533.81 339.34,533.9 339.31,533.99 339.25,534.04 339.22,534.14 339.16,534.23 339.1,534.26 339.04,534.32 339.01,534.41 338.95,534.47 338.89,534.53 338.83,534.59 338.74,534.61 338.68,534.68 338.59,534.74 338.5,534.77 338.47,534.77 338.38,534.79 338.29,534.82 338.2,534.86 338.14,534.86 338.05,534.89 337.99,534.89 337.9,534.89 337.9,534.89 337.81,534.89 337.72,534.89 337.63,534.86 337.57,534.86 337.48,534.82 337.42,534.79 337.33,534.77 337.27,534.77 337.18,534.74 337.09,534.68 337.03,534.61 336.94,534.59 336.91,534.53 336.85,534.47 336.79,534.41 336.73,534.32 336.67,534.26 336.61,534.23 336.55,534.14 336.52,534.04 336.46,533.99 336.43,533.9 336.43,533.81 336.4,533.72 336.37,533.66 336.34,533.57 336.31,533.48 336.31,533.39 336.28,533.27 336.28,533.2 336.28,533.11 336.28,533.11 336.28,533.03 336.28,532.94 336.31,532.82 336.31,532.73 336.34,532.66 336.37,532.57 336.4,532.49 336.43,532.4 336.43,532.31 336.46,532.22 336.52,532.19 336.55,532.1 336.61,532.01 336.67,531.95 336.73,531.89 336.79,531.79 336.85,531.74 336.91,531.68 336.94,531.65 337.03,531.61 337.09,531.56 337.18,531.5 337.27,531.47 337.33,531.44 337.42,531.41 337.48,531.38 337.57,531.35 337.63,531.35 337.72,531.32 337.81,531.32 337.9,531.32 337.9,531.32 337.99,531.32 338.05,531.32 338.14,531.35 338.2,531.35 338.29,531.38 338.38,531.41 338.47,531.44 338.5,531.47 338.59,531.5 338.68,531.56 338.74,531.61 338.83,531.65 338.89,531.68 338.95,531.74 339.01,531.79 339.04,531.89 339.1,531.95 339.16,532.01 339.22,532.1 339.25,532.19 339.31,532.22 339.34,532.31 339.37,532.4 339.4,532.49 339.43,532.57 339.46,532.66 339.49,532.73 339.49,532.82 339.52,532.94 339.52,533.03 339.52,533.11 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.03;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon29"
+     points="337.9,531.32 337.48,531.41 337.06,531.59 336.73,531.86 336.46,532.22 336.34,532.66 336.28,533.11 336.34,533.6 336.46,534.02 336.73,534.38 337.06,534.68 337.48,534.82 337.9,534.89 338.29,534.82 338.68,534.68 339.01,534.38 339.28,534.02 339.43,533.6 339.52,533.11 339.43,532.66 339.28,532.22 339.01,531.86 338.68,531.59 338.29,531.41 337.9,531.32 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon31"
+     points="297.01,470.3 297.01,470.39 297.01,470.48 296.98,470.57 296.98,470.66 296.95,470.75 296.92,470.84 296.89,470.93 296.86,470.99 296.83,471.08 296.83,471.17 296.77,471.23 296.74,471.32 296.68,471.41 296.62,471.47 296.56,471.5 296.5,471.59 296.44,471.65 296.38,471.71 296.32,471.77 296.26,471.8 296.2,471.86 296.11,471.92 296.02,471.95 295.96,471.98 295.87,472.01 295.81,472.01 295.72,472.04 295.66,472.04 295.57,472.07 295.48,472.07 295.39,472.07 295.39,472.07 295.3,472.07 295.24,472.07 295.15,472.04 295.09,472.04 295,472.01 294.91,472.01 294.82,471.98 294.79,471.95 294.7,471.92 294.61,471.86 294.55,471.8 294.46,471.77 294.4,471.71 294.34,471.65 294.28,471.59 294.25,471.5 294.19,471.47 294.13,471.41 294.07,471.32 294.04,471.23 293.98,471.17 293.95,471.08 293.92,470.99 293.89,470.93 293.86,470.84 293.83,470.75 293.8,470.66 293.8,470.57 293.77,470.48 293.77,470.39 293.77,470.3 293.77,470.3 293.77,470.21 293.77,470.12 293.8,470 293.8,469.94 293.83,469.85 293.86,469.76 293.89,469.67 293.92,469.58 293.95,469.49 293.98,469.43 294.04,469.37 294.07,469.28 294.13,469.19 294.19,469.13 294.25,469.07 294.28,468.98 294.34,468.92 294.4,468.89 294.46,468.83 294.55,468.8 294.61,468.74 294.7,468.68 294.79,468.65 294.82,468.62 294.91,468.59 295,468.56 295.09,468.53 295.15,468.53 295.24,468.5 295.3,468.5 295.39,468.5 295.39,468.5 295.48,468.5 295.57,468.5 295.66,468.53 295.72,468.53 295.81,468.56 295.87,468.59 295.96,468.62 296.02,468.65 296.11,468.68 296.2,468.74 296.26,468.8 296.32,468.83 296.38,468.89 296.44,468.92 296.5,468.98 296.56,469.07 296.62,469.13 296.68,469.19 296.74,469.28 296.77,469.37 296.83,469.43 296.83,469.49 296.86,469.58 296.89,469.67 296.92,469.76 296.95,469.85 296.98,469.94 296.98,470 297.01,470.12 297.01,470.21 297.01,470.3 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon33"
+     points="297.01,470.3 297.01,470.39 297.01,470.48 296.98,470.57 296.98,470.66 296.95,470.75 296.92,470.84 296.89,470.93 296.86,470.99 296.83,471.08 296.83,471.17 296.77,471.23 296.74,471.32 296.68,471.41 296.62,471.47 296.56,471.5 296.5,471.59 296.44,471.65 296.38,471.71 296.32,471.77 296.26,471.8 296.2,471.86 296.11,471.92 296.02,471.95 295.96,471.98 295.87,472.01 295.81,472.01 295.72,472.04 295.66,472.04 295.57,472.07 295.48,472.07 295.39,472.07 295.39,472.07 295.3,472.07 295.24,472.07 295.15,472.04 295.09,472.04 295,472.01 294.91,472.01 294.82,471.98 294.79,471.95 294.7,471.92 294.61,471.86 294.55,471.8 294.46,471.77 294.4,471.71 294.34,471.65 294.28,471.59 294.25,471.5 294.19,471.47 294.13,471.41 294.07,471.32 294.04,471.23 293.98,471.17 293.95,471.08 293.92,470.99 293.89,470.93 293.86,470.84 293.83,470.75 293.8,470.66 293.8,470.57 293.77,470.48 293.77,470.39 293.77,470.3 293.77,470.3 293.77,470.21 293.77,470.12 293.8,470 293.8,469.94 293.83,469.85 293.86,469.76 293.89,469.67 293.92,469.58 293.95,469.49 293.98,469.43 294.04,469.37 294.07,469.28 294.13,469.19 294.19,469.13 294.25,469.07 294.28,468.98 294.34,468.92 294.4,468.89 294.46,468.83 294.55,468.8 294.61,468.74 294.7,468.68 294.79,468.65 294.82,468.62 294.91,468.59 295,468.56 295.09,468.53 295.15,468.53 295.24,468.5 295.3,468.5 295.39,468.5 295.39,468.5 295.48,468.5 295.57,468.5 295.66,468.53 295.72,468.53 295.81,468.56 295.87,468.59 295.96,468.62 296.02,468.65 296.11,468.68 296.2,468.74 296.26,468.8 296.32,468.83 296.38,468.89 296.44,468.92 296.5,468.98 296.56,469.07 296.62,469.13 296.68,469.19 296.74,469.28 296.77,469.37 296.83,469.43 296.83,469.49 296.86,469.58 296.89,469.67 296.92,469.76 296.95,469.85 296.98,469.94 296.98,470 297.01,470.12 297.01,470.21 297.01,470.3 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.03;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon35"
+     points="295.39,468.5 294.97,468.59 294.58,468.77 294.25,469.04 293.98,469.43 293.83,469.85 293.77,470.3 293.83,470.78 293.98,471.2 294.25,471.56 294.58,471.86 294.97,472.01 295.39,472.07 295.81,472.01 296.2,471.86 296.53,471.56 296.8,471.2 296.92,470.78 297.01,470.3 296.92,469.85 296.8,469.43 296.53,469.04 296.2,468.77 295.81,468.59 295.39,468.5 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon37"
+     points="339.82,437.57 339.82,437.66 339.82,437.75 339.79,437.87 339.79,437.96 339.76,438.05 339.73,438.11 339.7,438.2 339.67,438.29 339.64,438.38 339.61,438.47 339.55,438.53 339.52,438.59 339.49,438.68 339.43,438.74 339.37,438.8 339.31,438.89 339.22,438.95 339.16,439.01 339.1,439.07 339.01,439.1 338.98,439.13 338.89,439.19 338.8,439.22 338.71,439.25 338.65,439.28 338.56,439.31 338.5,439.34 338.41,439.34 338.32,439.37 338.23,439.37 338.14,439.37 338.14,439.37 338.05,439.37 337.99,439.37 337.9,439.34 337.81,439.34 337.72,439.31 337.63,439.28 337.57,439.25 337.48,439.22 337.42,439.19 337.33,439.13 337.27,439.1 337.18,439.07 337.12,439.01 337.06,438.95 336.97,438.89 336.94,438.8 336.88,438.74 336.82,438.68 336.79,438.59 336.73,438.53 336.67,438.47 336.64,438.38 336.61,438.29 336.58,438.2 336.55,438.11 336.52,438.05 336.49,437.96 336.49,437.87 336.46,437.75 336.46,437.66 336.46,437.57 336.46,437.57 336.46,437.51 336.46,437.42 336.49,437.3 336.49,437.21 336.52,437.12 336.55,437.03 336.58,436.97 336.61,436.88 336.64,436.79 336.67,436.7 336.73,436.64 336.79,436.55 336.82,436.49 336.88,436.43 336.94,436.37 336.97,436.28 337.06,436.22 337.12,436.16 337.18,436.1 337.27,436.07 337.33,436.01 337.42,435.98 337.48,435.95 337.57,435.92 337.63,435.89 337.72,435.86 337.81,435.83 337.9,435.83 337.99,435.8 338.05,435.8 338.14,435.8 338.14,435.8 338.23,435.8 338.32,435.8 338.41,435.83 338.5,435.83 338.56,435.86 338.65,435.89 338.71,435.92 338.8,435.95 338.89,435.98 338.98,436.01 339.01,436.07 339.1,436.1 339.16,436.16 339.22,436.22 339.31,436.28 339.37,436.37 339.43,436.43 339.49,436.49 339.52,436.55 339.55,436.64 339.61,436.7 339.64,436.79 339.67,436.88 339.7,436.97 339.73,437.03 339.76,437.12 339.79,437.21 339.79,437.3 339.82,437.42 339.82,437.51 339.82,437.57 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon39"
+     points="339.82,437.57 339.82,437.66 339.82,437.75 339.79,437.87 339.79,437.96 339.76,438.05 339.73,438.11 339.7,438.2 339.67,438.29 339.64,438.38 339.61,438.47 339.55,438.53 339.52,438.59 339.49,438.68 339.43,438.74 339.37,438.8 339.31,438.89 339.22,438.95 339.16,439.01 339.1,439.07 339.01,439.1 338.98,439.13 338.89,439.19 338.8,439.22 338.71,439.25 338.65,439.28 338.56,439.31 338.5,439.34 338.41,439.34 338.32,439.37 338.23,439.37 338.14,439.37 338.14,439.37 338.05,439.37 337.99,439.37 337.9,439.34 337.81,439.34 337.72,439.31 337.63,439.28 337.57,439.25 337.48,439.22 337.42,439.19 337.33,439.13 337.27,439.1 337.18,439.07 337.12,439.01 337.06,438.95 336.97,438.89 336.94,438.8 336.88,438.74 336.82,438.68 336.79,438.59 336.73,438.53 336.67,438.47 336.64,438.38 336.61,438.29 336.58,438.2 336.55,438.11 336.52,438.05 336.49,437.96 336.49,437.87 336.46,437.75 336.46,437.66 336.46,437.57 336.46,437.57 336.46,437.51 336.46,437.42 336.49,437.3 336.49,437.21 336.52,437.12 336.55,437.03 336.58,436.97 336.61,436.88 336.64,436.79 336.67,436.7 336.73,436.64 336.79,436.55 336.82,436.49 336.88,436.43 336.94,436.37 336.97,436.28 337.06,436.22 337.12,436.16 337.18,436.1 337.27,436.07 337.33,436.01 337.42,435.98 337.48,435.95 337.57,435.92 337.63,435.89 337.72,435.86 337.81,435.83 337.9,435.83 337.99,435.8 338.05,435.8 338.14,435.8 338.14,435.8 338.23,435.8 338.32,435.8 338.41,435.83 338.5,435.83 338.56,435.86 338.65,435.89 338.71,435.92 338.8,435.95 338.89,435.98 338.98,436.01 339.01,436.07 339.1,436.1 339.16,436.16 339.22,436.22 339.31,436.28 339.37,436.37 339.43,436.43 339.49,436.49 339.52,436.55 339.55,436.64 339.61,436.7 339.64,436.79 339.67,436.88 339.7,436.97 339.73,437.03 339.76,437.12 339.79,437.21 339.79,437.3 339.82,437.42 339.82,437.51 339.82,437.57 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.03;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon41"
+     points="338.14,435.8 337.69,435.89 337.3,436.04 336.94,436.34 336.7,436.7 336.52,437.12 336.46,437.57 336.52,438.08 336.7,438.5 336.94,438.86 337.3,439.13 337.69,439.31 338.14,439.37 338.56,439.31 338.98,439.13 339.31,438.86 339.55,438.5 339.73,438.08 339.82,437.57 339.73,437.12 339.55,436.7 339.31,436.34 338.98,436.04 338.56,435.89 338.14,435.8 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon43"
+     points="297.01,372.95 297.01,373.04 297.01,373.13 296.98,373.25 296.98,373.31 296.95,373.4 296.92,373.49 296.89,373.58 296.86,373.67 296.83,373.76 296.83,373.82 296.77,373.88 296.74,373.97 296.68,374.06 296.62,374.12 296.56,374.18 296.5,374.27 296.44,374.3 296.38,374.36 296.32,374.42 296.26,374.45 296.2,374.51 296.11,374.57 296.02,374.6 295.96,374.63 295.87,374.66 295.81,374.69 295.72,374.72 295.66,374.72 295.57,374.75 295.48,374.75 295.39,374.75 295.39,374.75 295.3,374.75 295.24,374.75 295.15,374.72 295.09,374.72 295,374.69 294.91,374.66 294.82,374.63 294.79,374.6 294.7,374.57 294.61,374.51 294.55,374.45 294.46,374.42 294.4,374.36 294.34,374.3 294.28,374.27 294.25,374.18 294.19,374.12 294.13,374.06 294.07,373.97 294.04,373.88 293.98,373.82 293.95,373.76 293.92,373.67 293.89,373.58 293.86,373.49 293.83,373.4 293.8,373.31 293.8,373.25 293.77,373.13 293.77,373.04 293.77,372.95 293.77,372.95 293.77,372.86 293.77,372.77 293.8,372.68 293.8,372.59 293.83,372.5 293.86,372.41 293.89,372.32 293.92,372.23 293.95,372.17 293.98,372.08 294.04,372.02 294.07,371.93 294.13,371.84 294.19,371.78 294.25,371.72 294.28,371.66 294.34,371.6 294.4,371.54 294.46,371.48 294.55,371.45 294.61,371.39 294.7,371.33 294.79,371.3 294.82,371.27 294.91,371.24 295,371.21 295.09,371.21 295.15,371.21 295.24,371.18 295.3,371.18 295.39,371.18 295.39,371.18 295.48,371.18 295.57,371.18 295.66,371.21 295.72,371.21 295.81,371.21 295.87,371.24 295.96,371.27 296.02,371.3 296.11,371.33 296.2,371.39 296.26,371.45 296.32,371.48 296.38,371.54 296.44,371.6 296.5,371.66 296.56,371.72 296.62,371.78 296.68,371.84 296.74,371.93 296.77,372.02 296.83,372.08 296.83,372.17 296.86,372.23 296.89,372.32 296.92,372.41 296.95,372.5 296.98,372.59 296.98,372.68 297.01,372.77 297.01,372.86 297.01,372.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon45"
+     points="297.01,372.95 297.01,373.04 297.01,373.13 296.98,373.25 296.98,373.31 296.95,373.4 296.92,373.49 296.89,373.58 296.86,373.67 296.83,373.76 296.83,373.82 296.77,373.88 296.74,373.97 296.68,374.06 296.62,374.12 296.56,374.18 296.5,374.27 296.44,374.3 296.38,374.36 296.32,374.42 296.26,374.45 296.2,374.51 296.11,374.57 296.02,374.6 295.96,374.63 295.87,374.66 295.81,374.69 295.72,374.72 295.66,374.72 295.57,374.75 295.48,374.75 295.39,374.75 295.39,374.75 295.3,374.75 295.24,374.75 295.15,374.72 295.09,374.72 295,374.69 294.91,374.66 294.82,374.63 294.79,374.6 294.7,374.57 294.61,374.51 294.55,374.45 294.46,374.42 294.4,374.36 294.34,374.3 294.28,374.27 294.25,374.18 294.19,374.12 294.13,374.06 294.07,373.97 294.04,373.88 293.98,373.82 293.95,373.76 293.92,373.67 293.89,373.58 293.86,373.49 293.83,373.4 293.8,373.31 293.8,373.25 293.77,373.13 293.77,373.04 293.77,372.95 293.77,372.95 293.77,372.86 293.77,372.77 293.8,372.68 293.8,372.59 293.83,372.5 293.86,372.41 293.89,372.32 293.92,372.23 293.95,372.17 293.98,372.08 294.04,372.02 294.07,371.93 294.13,371.84 294.19,371.78 294.25,371.72 294.28,371.66 294.34,371.6 294.4,371.54 294.46,371.48 294.55,371.45 294.61,371.39 294.7,371.33 294.79,371.3 294.82,371.27 294.91,371.24 295,371.21 295.09,371.21 295.15,371.21 295.24,371.18 295.3,371.18 295.39,371.18 295.39,371.18 295.48,371.18 295.57,371.18 295.66,371.21 295.72,371.21 295.81,371.21 295.87,371.24 295.96,371.27 296.02,371.3 296.11,371.33 296.2,371.39 296.26,371.45 296.32,371.48 296.38,371.54 296.44,371.6 296.5,371.66 296.56,371.72 296.62,371.78 296.68,371.84 296.74,371.93 296.77,372.02 296.83,372.08 296.83,372.17 296.86,372.23 296.89,372.32 296.92,372.41 296.95,372.5 296.98,372.59 296.98,372.68 297.01,372.77 297.01,372.86 297.01,372.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.03;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon47"
+     points="295.39,371.18 294.97,371.24 294.58,371.42 294.25,371.72 293.98,372.08 293.83,372.5 293.77,372.95 293.83,373.43 293.98,373.85 294.25,374.24 294.58,374.51 294.97,374.69 295.39,374.75 295.81,374.69 296.2,374.51 296.53,374.24 296.8,373.85 296.92,373.43 297.01,372.95 296.92,372.5 296.8,372.08 296.53,371.72 296.2,371.42 295.81,371.24 295.39,371.18 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon49"
+     points="334.09,408.62 334.81,409.37 323.32,406.79 333.82,401.51 333.34,402.35 332.95,403.37 332.8,404.45 332.8,405.59 333.04,406.7 333.49,407.72 334.09,408.62 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon51"
+     points="334.09,408.62 334.81,409.37 323.32,406.79 333.82,401.51 333.34,402.35 332.95,403.37 332.8,404.45 332.8,405.59 333.04,406.7 333.49,407.72 334.09,408.62 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon53"
+     points="373.51,414.59 373.12,414.08 372.94,414.26 372.7,414.44 373.09,414.95 373.51,414.59 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon55"
+     points="373.51,414.59 373.12,414.08 372.94,414.26 372.7,414.44 373.09,414.95 373.51,414.59 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon57"
+     points="372.94,414.26 373.12,414.08 372.67,413.54 372.46,413.75 372.25,413.96 372.7,414.44 372.94,414.26 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon59"
+     points="372.94,414.26 373.12,414.08 372.67,413.54 372.46,413.75 372.25,413.96 372.7,414.44 372.94,414.26 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon61"
+     points="372.46,413.75 372.67,413.54 372.13,413.03 371.95,413.24 371.77,413.45 372.25,413.96 372.46,413.75 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon63"
+     points="372.46,413.75 372.67,413.54 372.13,413.03 371.95,413.24 371.77,413.45 372.25,413.96 372.46,413.75 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon65"
+     points="371.95,413.24 372.13,413.03 371.5,412.52 371.38,412.76 371.2,413 371.77,413.45 371.95,413.24 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon67"
+     points="371.95,413.24 372.13,413.03 371.5,412.52 371.38,412.76 371.2,413 371.77,413.45 371.95,413.24 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon69"
+     points="371.38,412.76 371.5,412.52 370.87,412.04 370.72,412.28 370.54,412.52 371.2,413 371.38,412.76 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon71"
+     points="371.38,412.76 371.5,412.52 370.87,412.04 370.72,412.28 370.54,412.52 371.2,413 371.38,412.76 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon73"
+     points="370.72,412.28 370.87,412.04 370.12,411.59 370,411.83 369.88,412.07 370.54,412.52 370.72,412.28 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon75"
+     points="370.72,412.28 370.87,412.04 370.12,411.59 370,411.83 369.88,412.07 370.54,412.52 370.72,412.28 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon77"
+     points="370,411.83 370.12,411.59 369.34,411.14 369.22,411.35 369.07,411.62 369.88,412.07 370,411.83 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon79"
+     points="370,411.83 370.12,411.59 369.34,411.14 369.22,411.35 369.07,411.62 369.88,412.07 370,411.83 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon81"
+     points="369.22,411.35 369.34,411.14 368.47,410.69 368.35,410.93 368.23,411.23 369.07,411.62 369.22,411.35 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon83"
+     points="369.22,411.35 369.34,411.14 368.47,410.69 368.35,410.93 368.23,411.23 369.07,411.62 369.22,411.35 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon85"
+     points="368.35,410.93 368.47,410.69 367.57,410.27 367.48,410.51 367.36,410.81 368.23,411.23 368.35,410.93 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon87"
+     points="368.35,410.93 368.47,410.69 367.57,410.27 367.48,410.51 367.36,410.81 368.23,411.23 368.35,410.93 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon89"
+     points="367.48,410.51 367.57,410.27 366.64,409.85 366.55,410.12 366.43,410.39 367.36,410.81 367.48,410.51 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon91"
+     points="367.48,410.51 367.57,410.27 366.64,409.85 366.55,410.12 366.43,410.39 367.36,410.81 367.48,410.51 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon93"
+     points="366.55,410.12 366.64,409.85 365.65,409.49 365.56,409.76 365.44,410.03 366.43,410.39 366.55,410.12 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon95"
+     points="366.55,410.12 366.64,409.85 365.65,409.49 365.56,409.76 365.44,410.03 366.43,410.39 366.55,410.12 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon97"
+     points="365.56,409.76 365.65,409.49 364.6,409.1 364.51,409.34 364.39,409.64 365.44,410.03 365.56,409.76 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon99"
+     points="365.56,409.76 365.65,409.49 364.6,409.1 364.51,409.34 364.39,409.64 365.44,410.03 365.56,409.76 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon101"
+     points="364.51,409.34 364.6,409.1 363.49,408.77 363.43,409.01 363.34,409.28 364.39,409.64 364.51,409.34 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon103"
+     points="364.51,409.34 364.6,409.1 363.49,408.77 363.43,409.01 363.34,409.28 364.39,409.64 364.51,409.34 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon105"
+     points="363.43,409.01 363.49,408.77 362.38,408.41 362.32,408.68 362.23,408.95 363.34,409.28 363.43,409.01 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon107"
+     points="363.43,409.01 363.49,408.77 362.38,408.41 362.32,408.68 362.23,408.95 363.34,409.28 363.43,409.01 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon109"
+     points="362.32,408.68 362.38,408.41 361.21,408.08 361.15,408.32 361.09,408.62 362.23,408.95 362.32,408.68 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon111"
+     points="362.32,408.68 362.38,408.41 361.21,408.08 361.15,408.32 361.09,408.62 362.23,408.95 362.32,408.68 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon113"
+     points="361.15,408.32 361.21,408.08 360.04,407.75 359.98,408.02 359.89,408.29 361.09,408.62 361.15,408.32 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon115"
+     points="361.15,408.32 361.21,408.08 360.04,407.75 359.98,408.02 359.89,408.29 361.09,408.62 361.15,408.32 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon117"
+     points="359.98,408.02 360.04,407.75 358.81,407.48 358.75,407.72 358.66,408.02 359.89,408.29 359.98,408.02 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon119"
+     points="359.98,408.02 360.04,407.75 358.81,407.48 358.75,407.72 358.66,408.02 359.89,408.29 359.98,408.02 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon121"
+     points="358.75,407.72 358.81,407.48 357.52,407.21 357.52,407.45 357.46,407.72 358.66,408.02 358.75,407.72 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon123"
+     points="358.75,407.72 358.81,407.48 357.52,407.21 357.52,407.45 357.46,407.72 358.66,408.02 358.75,407.72 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon125"
+     points="357.52,407.45 357.52,407.21 356.23,406.94 356.2,407.21 356.14,407.48 357.46,407.72 357.52,407.45 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon127"
+     points="357.52,407.45 357.52,407.21 356.23,406.94 356.2,407.21 356.14,407.48 357.46,407.72 357.52,407.45 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon129"
+     points="356.2,407.21 356.23,406.94 354.94,406.7 354.94,406.94 354.88,407.21 356.14,407.48 356.2,407.21 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon131"
+     points="356.2,407.21 356.23,406.94 354.94,406.7 354.94,406.94 354.88,407.21 356.14,407.48 356.2,407.21 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon133"
+     points="354.94,406.94 354.94,406.7 353.62,406.46 353.59,406.7 353.53,407 354.88,407.21 354.94,406.94 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon135"
+     points="354.94,406.94 354.94,406.7 353.62,406.46 353.59,406.7 353.53,407 354.88,407.21 354.94,406.94 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon137"
+     points="353.59,406.7 353.62,406.46 352.3,406.25 352.27,406.52 352.21,406.79 353.53,407 353.59,406.7 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon139"
+     points="353.59,406.7 353.62,406.46 352.3,406.25 352.27,406.52 352.21,406.79 353.53,407 353.59,406.7 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon141"
+     points="352.27,406.52 352.3,406.25 350.92,406.07 350.89,406.31 350.83,406.61 352.21,406.79 352.27,406.52 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon143"
+     points="352.27,406.52 352.3,406.25 350.92,406.07 350.89,406.31 350.83,406.61 352.21,406.79 352.27,406.52 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon145"
+     points="350.89,406.31 350.92,406.07 349.57,405.86 349.54,406.13 349.48,406.4 350.83,406.61 350.89,406.31 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon147"
+     points="350.89,406.31 350.92,406.07 349.57,405.86 349.54,406.13 349.48,406.4 350.83,406.61 350.89,406.31 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon149"
+     points="349.54,406.13 349.57,405.86 348.22,405.71 348.19,405.98 348.13,406.25 349.48,406.4 349.54,406.13 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon151"
+     points="349.54,406.13 349.57,405.86 348.22,405.71 348.19,405.98 348.13,406.25 349.48,406.4 349.54,406.13 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon153"
+     points="348.19,405.98 348.22,405.71 346.81,405.59 346.78,405.83 346.72,406.13 348.13,406.25 348.19,405.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon155"
+     points="348.19,405.98 348.22,405.71 346.81,405.59 346.78,405.83 346.72,406.13 348.13,406.25 348.19,405.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon157"
+     points="346.78,405.83 346.81,405.59 345.4,405.44 345.4,405.68 345.37,405.98 346.72,406.13 346.78,405.83 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon159"
+     points="346.78,405.83 346.81,405.59 345.4,405.44 345.4,405.68 345.37,405.98 346.72,406.13 346.78,405.83 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon161"
+     points="345.4,405.68 345.4,405.44 344.05,405.35 344.05,405.62 344.02,405.89 345.37,405.98 345.4,405.68 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon163"
+     points="345.4,405.68 345.4,405.44 344.05,405.35 344.05,405.62 344.02,405.89 345.37,405.98 345.4,405.68 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon165"
+     points="344.05,405.62 344.05,405.35 342.64,405.26 342.64,405.53 342.61,405.8 344.02,405.89 344.05,405.62 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon167"
+     points="344.05,405.62 344.05,405.35 342.64,405.26 342.64,405.53 342.61,405.8 344.02,405.89 344.05,405.62 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon169"
+     points="342.64,405.53 342.64,405.26 341.29,405.17 341.29,405.44 341.26,405.71 342.61,405.8 342.64,405.53 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon171"
+     points="342.64,405.53 342.64,405.26 341.29,405.17 341.29,405.44 341.26,405.71 342.61,405.8 342.64,405.53 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon173"
+     points="341.29,405.44 341.29,405.17 339.91,405.14 339.91,405.38 339.88,405.68 341.26,405.71 341.29,405.44 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon175"
+     points="341.29,405.44 341.29,405.17 339.91,405.14 339.91,405.38 339.88,405.68 341.26,405.71 341.29,405.44 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon177"
+     points="339.91,405.38 339.91,405.14 338.56,405.08 338.56,405.35 338.56,405.65 339.88,405.68 339.91,405.38 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon179"
+     points="339.91,405.38 339.91,405.14 338.56,405.08 338.56,405.35 338.56,405.65 339.88,405.68 339.91,405.38 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon181"
+     points="338.56,405.35 338.56,405.08 337.21,405.08 337.21,405.35 337.21,405.65 338.56,405.65 338.56,405.35 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon183"
+     points="338.56,405.35 338.56,405.08 337.21,405.08 337.21,405.35 337.21,405.65 338.56,405.65 338.56,405.35 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon185"
+     points="337.21,405.35 337.21,405.08 335.89,405.11 335.92,405.35 335.92,405.65 337.21,405.65 337.21,405.35 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon187"
+     points="337.21,405.35 337.21,405.08 335.89,405.11 335.92,405.35 335.92,405.65 337.21,405.65 337.21,405.35 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon189"
+     points="335.92,405.35 335.89,405.11 334.57,405.14 334.6,405.38 334.6,405.68 335.92,405.65 335.92,405.35 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon191"
+     points="335.92,405.35 335.89,405.11 334.57,405.14 334.6,405.38 334.6,405.68 335.92,405.65 335.92,405.35 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon193"
+     points="334.6,405.38 334.57,405.14 333.31,405.17 333.34,405.44 333.34,405.71 334.6,405.68 334.6,405.38 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon195"
+     points="334.6,405.38 334.57,405.14 333.31,405.17 333.34,405.44 333.34,405.71 334.6,405.68 334.6,405.38 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon197"
+     points="333.34,405.44 333.31,405.17 332.05,405.2 332.08,405.77 333.34,405.71 333.34,405.44 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon199"
+     points="333.34,405.44 333.31,405.17 332.05,405.2 332.08,405.77 333.34,405.71 333.34,405.44 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon201"
+     points="311.56,374.06 312.28,374.81 300.88,371.84 311.56,366.92 311.02,367.76 310.63,368.75 310.39,369.8 310.39,370.94 310.6,372.08 310.99,373.13 311.56,374.06 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon203"
+     points="311.56,374.06 312.28,374.81 300.88,371.84 311.56,366.92 311.02,367.76 310.63,368.75 310.39,369.8 310.39,370.94 310.6,372.08 310.99,373.13 311.56,374.06 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon205"
+     points="338.35,368.18 309.67,370.76 309.7,371.3 338.38,368.72 338.35,368.18 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon207"
+     points="338.35,368.18 309.67,370.76 309.7,371.3 338.38,368.72 338.35,368.18 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon209"
+     points="206.77,500.27 206.53,501.29 202.54,490.19 212.65,496.22 211.66,496.25 210.61,496.52 209.59,496.91 208.66,497.57 207.85,498.32 207.22,499.28 206.77,500.27 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon211"
+     points="206.77,500.27 206.53,501.29 202.54,490.19 212.65,496.22 211.66,496.25 210.61,496.52 209.59,496.91 208.66,497.57 207.85,498.32 207.22,499.28 206.77,500.27 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon213"
+     points="231.1,524.4 208.39,496.85 207.97,497.21 230.68,524.75 231.1,524.4 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon215"
+     points="231.1,524.4 208.39,496.85 207.97,497.21 230.68,524.75 231.1,524.4 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon217"
+     points="146.23,467.3 217.12,467.3 217.12,468.41 146.23,468.41 146.23,467.3 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon219"
+     points="146.23,467.3 217.12,467.3 217.12,468.41 146.23,468.41 146.23,467.3 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon221"
+     points="174.58,438.95 176.8,438.95 176.8,440.09 174.58,440.09 174.58,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon223"
+     points="174.58,438.95 176.8,438.95 176.8,440.09 174.58,440.09 174.58,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon225"
+     points="179.05,438.95 181.27,438.95 181.27,440.09 179.05,440.09 179.05,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon227"
+     points="179.05,438.95 181.27,438.95 181.27,440.09 179.05,440.09 179.05,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon229"
+     points="183.52,438.95 185.74,438.95 185.74,440.09 183.52,440.09 183.52,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon231"
+     points="183.52,438.95 185.74,438.95 185.74,440.09 183.52,440.09 183.52,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon233"
+     points="187.96,438.95 190.21,438.95 190.21,440.09 187.96,440.09 187.96,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon235"
+     points="187.96,438.95 190.21,438.95 190.21,440.09 187.96,440.09 187.96,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon237"
+     points="192.43,438.95 194.68,438.95 194.68,440.09 192.43,440.09 192.43,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon239"
+     points="192.43,438.95 194.68,438.95 194.68,440.09 192.43,440.09 192.43,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon241"
+     points="196.93,438.95 199.12,438.95 199.12,440.09 196.93,440.09 196.93,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon243"
+     points="196.93,438.95 199.12,438.95 199.12,440.09 196.93,440.09 196.93,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon245"
+     points="201.37,438.95 203.62,438.95 203.62,440.09 201.37,440.09 201.37,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon247"
+     points="201.37,438.95 203.62,438.95 203.62,440.09 201.37,440.09 201.37,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon249"
+     points="205.84,438.95 208.09,438.95 208.09,440.09 205.84,440.09 205.84,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon251"
+     points="205.84,438.95 208.09,438.95 208.09,440.09 205.84,440.09 205.84,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon253"
+     points="210.31,438.95 212.53,438.95 212.53,440.09 210.31,440.09 210.31,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon255"
+     points="210.31,438.95 212.53,438.95 212.53,440.09 210.31,440.09 210.31,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon257"
+     points="214.78,438.95 217.03,438.95 217.03,440.09 214.78,440.09 214.78,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon259"
+     points="214.78,438.95 217.03,438.95 217.03,440.09 214.78,440.09 214.78,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon261"
+     points="219.25,438.95 221.47,438.95 221.47,440.09 219.25,440.09 219.25,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon263"
+     points="219.25,438.95 221.47,438.95 221.47,440.09 219.25,440.09 219.25,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon265"
+     points="223.72,438.95 225.94,438.95 225.94,440.09 223.72,440.09 223.72,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon267"
+     points="223.72,438.95 225.94,438.95 225.94,440.09 223.72,440.09 223.72,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon269"
+     points="228.19,438.95 230.44,438.95 230.44,440.09 228.19,440.09 228.19,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon271"
+     points="228.19,438.95 230.44,438.95 230.44,440.09 228.19,440.09 228.19,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon273"
+     points="232.63,438.95 234.88,438.95 234.88,440.09 232.63,440.09 232.63,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon275"
+     points="232.63,438.95 234.88,438.95 234.88,440.09 232.63,440.09 232.63,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon277"
+     points="237.13,438.95 239.35,438.95 239.35,440.09 237.13,440.09 237.13,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon279"
+     points="237.13,438.95 239.35,438.95 239.35,440.09 237.13,440.09 237.13,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon281"
+     points="241.6,438.95 243.82,438.95 243.82,440.09 241.6,440.09 241.6,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon283"
+     points="241.6,438.95 243.82,438.95 243.82,440.09 241.6,440.09 241.6,438.95 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon285"
+     points="174.58,509.81 245.44,509.81 245.44,510.95 174.58,510.95 174.58,509.81 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon287"
+     points="174.58,509.81 245.44,509.81 245.44,510.95 174.58,510.95 174.58,509.81 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon289"
+     points="146.23,396.41 217.12,396.41 217.12,397.55 146.23,397.55 146.23,396.41 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon291"
+     points="146.23,396.41 217.12,396.41 217.12,397.55 146.23,397.55 146.23,396.41 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon293"
+     points="217.12,396.98 217.12,467.87 245.44,510.38 245.44,439.52 217.12,396.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#b3b3b3;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon295"
+     points="217.12,396.98 217.12,467.87 245.44,510.38 245.44,439.52 217.12,396.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon297"
+     points="216.55,396.98 216.55,467.87 216.55,467.87 216.55,467.93 216.55,468.02 216.61,468.2 217.12,467.87 217.66,467.87 217.66,396.98 217.12,396.98 216.55,396.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon299"
+     points="216.55,396.98 216.55,467.87 216.55,467.87 216.55,467.93 216.55,468.02 216.61,468.2 217.12,467.87 217.66,467.87 217.66,396.98 217.12,396.98 216.55,396.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon301"
+     points="216.61,468.2 244.96,510.71 244.96,510.71 245.02,510.77 245.11,510.86 245.17,510.89 245.29,510.95 245.38,510.95 245.44,510.95 245.56,510.95 245.65,510.92 245.74,510.89 245.83,510.83 245.89,510.74 245.92,510.65 245.95,510.59 246.01,510.38 245.44,510.38 245.92,510.08 217.57,467.54 217.12,467.87 216.61,468.2 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon303"
+     points="216.61,468.2 244.96,510.71 244.96,510.71 245.02,510.77 245.11,510.86 245.17,510.89 245.29,510.95 245.38,510.95 245.44,510.95 245.56,510.95 245.65,510.92 245.74,510.89 245.83,510.83 245.89,510.74 245.92,510.65 245.95,510.59 246.01,510.38 245.44,510.38 245.92,510.08 217.57,467.54 217.12,467.87 216.61,468.2 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon305"
+     points="246.01,510.38 246.01,439.52 246.01,439.52 245.98,439.46 245.98,439.37 245.92,439.19 245.44,439.52 244.9,439.52 244.9,510.38 245.44,510.38 246.01,510.38 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon307"
+     points="246.01,510.38 246.01,439.52 246.01,439.52 245.98,439.46 245.98,439.37 245.92,439.19 245.44,439.52 244.9,439.52 244.9,510.38 245.44,510.38 246.01,510.38 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon309"
+     points="245.92,439.19 217.57,396.68 217.57,396.68 217.51,396.62 217.42,396.53 217.36,396.5 217.24,396.44 217.15,396.44 217.09,396.44 216.97,396.44 216.88,396.47 216.79,396.5 216.7,396.56 216.64,396.65 216.61,396.74 216.58,396.83 216.55,396.98 217.12,396.98 216.61,397.34 244.96,439.85 245.44,439.52 245.92,439.19 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon311"
+     points="245.92,439.19 217.57,396.68 217.57,396.68 217.51,396.62 217.42,396.53 217.36,396.5 217.24,396.44 217.15,396.44 217.09,396.44 216.97,396.44 216.88,396.47 216.79,396.5 216.7,396.56 216.64,396.65 216.61,396.74 216.58,396.83 216.55,396.98 217.12,396.98 216.61,397.34 244.96,439.85 245.44,439.52 245.92,439.19 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon313"
+     points="235.93,449.03 240.64,453.68 235.93,458.39 231.28,453.68 235.93,449.03 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon315"
+     points="235.93,449.03 240.64,453.68 235.93,458.39 231.28,453.68 235.93,449.03 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon317"
+     points="277.48,450.53 276.85,449.72 287.98,453.68 276.85,457.64 277.45,456.83 277.93,455.9 278.29,454.85 278.38,453.71 278.32,452.57 277.96,451.52 277.48,450.53 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon319"
+     points="277.48,450.53 276.85,449.72 287.98,453.68 276.85,457.64 277.45,456.83 277.93,455.9 278.29,454.85 278.38,453.71 278.32,452.57 277.96,451.52 277.48,450.53 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon321"
+     points="238.75,453.41 279.1,453.41 279.1,453.98 238.75,453.98 238.75,453.41 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon323"
+     points="238.75,453.41 279.1,453.41 279.1,453.98 238.75,453.98 238.75,453.41 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#b3b3b3;fill-opacity:1;fill-rule:nonzero;stroke:#b3b3b3;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon325"
+     points="302.14,396.98 302.14,467.87 330.49,510.38 330.49,439.52 302.14,396.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#b3b3b3;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon327"
+     points="302.14,396.98 302.14,467.87 330.49,510.38 330.49,439.52 302.14,396.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon329"
+     points="301.57,396.98 301.57,467.87 301.57,467.87 301.57,467.93 301.57,468.02 301.66,468.2 302.14,467.87 302.71,467.87 302.71,396.98 302.14,396.98 301.57,396.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon331"
+     points="301.57,396.98 301.57,467.87 301.57,467.87 301.57,467.93 301.57,468.02 301.66,468.2 302.14,467.87 302.71,467.87 302.71,396.98 302.14,396.98 301.57,396.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon333"
+     points="301.66,468.2 330.01,510.71 330.01,510.71 330.07,510.77 330.16,510.86 330.22,510.89 330.31,510.95 330.4,510.95 330.49,510.95 330.61,510.95 330.7,510.92 330.79,510.89 330.85,510.83 330.91,510.74 330.97,510.65 331,510.59 331.06,510.38 330.49,510.38 330.94,510.08 302.59,467.54 302.14,467.87 301.66,468.2 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon335"
+     points="301.66,468.2 330.01,510.71 330.01,510.71 330.07,510.77 330.16,510.86 330.22,510.89 330.31,510.95 330.4,510.95 330.49,510.95 330.61,510.95 330.7,510.92 330.79,510.89 330.85,510.83 330.91,510.74 330.97,510.65 331,510.59 331.06,510.38 330.49,510.38 330.94,510.08 302.59,467.54 302.14,467.87 301.66,468.2 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon337"
+     points="331.06,510.38 331.06,439.52 331.06,439.52 331.03,439.46 331.03,439.37 330.94,439.19 330.49,439.52 329.92,439.52 329.92,510.38 330.49,510.38 331.06,510.38 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon339"
+     points="331.06,510.38 331.06,439.52 331.06,439.52 331.03,439.46 331.03,439.37 330.94,439.19 330.49,439.52 329.92,439.52 329.92,510.38 330.49,510.38 331.06,510.38 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon341"
+     points="330.94,439.19 302.59,396.68 302.59,396.68 302.53,396.62 302.47,396.53 302.41,396.5 302.29,396.44 302.2,396.44 302.11,396.44 301.99,396.44 301.93,396.47 301.84,396.5 301.75,396.56 301.69,396.65 301.63,396.74 301.6,396.83 301.57,396.98 302.14,396.98 301.66,397.34 330.01,439.85 330.49,439.52 330.94,439.19 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon343"
+     points="330.94,439.19 302.59,396.68 302.59,396.68 302.53,396.62 302.47,396.53 302.41,396.5 302.29,396.44 302.2,396.44 302.11,396.44 301.99,396.44 301.93,396.47 301.84,396.5 301.75,396.56 301.69,396.65 301.63,396.74 301.6,396.83 301.57,396.98 302.14,396.98 301.66,397.34 330.01,439.85 330.49,439.52 330.94,439.19 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon345"
+     points="145.75,468.2 174.1,510.71 175.03,510.08 146.68,467.54 145.75,468.2 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon347"
+     points="145.75,468.2 174.1,510.71 175.03,510.08 146.68,467.54 145.75,468.2 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon349"
+     points="145.75,397.34 147.01,399.17 147.94,398.54 146.68,396.68 145.75,397.34 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon351"
+     points="145.75,397.34 147.01,399.17 147.94,398.54 146.68,396.68 145.75,397.34 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon353"
+     points="148.21,401.03 149.47,402.89 150.4,402.26 149.2,400.43 148.21,401.03 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon355"
+     points="148.21,401.03 149.47,402.89 150.4,402.26 149.2,400.43 148.21,401.03 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon357"
+     points="150.73,404.75 151.93,406.61 152.89,405.98 151.66,404.12 150.73,404.75 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon359"
+     points="150.73,404.75 151.93,406.61 152.89,405.98 151.66,404.12 150.73,404.75 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon361"
+     points="153.19,408.47 154.42,410.33 155.38,409.7 154.12,407.84 153.19,408.47 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon363"
+     points="153.19,408.47 154.42,410.33 155.38,409.7 154.12,407.84 153.19,408.47 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon365"
+     points="155.68,412.19 156.91,414.05 157.87,413.39 156.61,411.56 155.68,412.19 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon367"
+     points="155.68,412.19 156.91,414.05 157.87,413.39 156.61,411.56 155.68,412.19 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon369"
+     points="158.14,415.91 159.4,417.77 160.33,417.14 159.07,415.28 158.14,415.91 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon371"
+     points="158.14,415.91 159.4,417.77 160.33,417.14 159.07,415.28 158.14,415.91 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon373"
+     points="160.6,419.6 161.86,421.49 162.79,420.86 161.59,419 160.6,419.6 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon375"
+     points="160.6,419.6 161.86,421.49 162.79,420.86 161.59,419 160.6,419.6 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon377"
+     points="163.12,423.35 164.35,425.21 165.28,424.58 164.05,422.69 163.12,423.35 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon379"
+     points="163.12,423.35 164.35,425.21 165.28,424.58 164.05,422.69 163.12,423.35 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon381"
+     points="165.58,427.07 166.81,428.9 167.74,428.3 166.54,426.41 165.58,427.07 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon383"
+     points="165.58,427.07 166.81,428.9 167.74,428.3 166.54,426.41 165.58,427.07 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon385"
+     points="168.07,430.79 169.3,432.62 170.26,431.99 169,430.16 168.07,430.79 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon387"
+     points="168.07,430.79 169.3,432.62 170.26,431.99 169,430.16 168.07,430.79 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon389"
+     points="170.53,434.48 171.79,436.34 172.72,435.71 171.46,433.88 170.53,434.48 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon391"
+     points="170.53,434.48 171.79,436.34 172.72,435.71 171.46,433.88 170.53,434.48 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon393"
+     points="172.99,438.2 174.1,439.85 175.03,439.19 173.95,437.57 172.99,438.2 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon395"
+     points="172.99,438.2 174.1,439.85 175.03,439.19 173.95,437.57 172.99,438.2 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon397"
+     points="145.66,396.98 146.8,396.98 146.8,467.87 145.66,467.87 145.66,396.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon399"
+     points="145.66,396.98 146.8,396.98 146.8,467.87 145.66,467.87 145.66,396.98 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon401"
+     points="174.01,508.16 175.15,508.16 175.15,510.38 174.01,510.38 174.01,508.16 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon403"
+     points="174.01,508.16 175.15,508.16 175.15,510.38 174.01,510.38 174.01,508.16 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon405"
+     points="174.01,503.69 175.15,503.69 175.15,505.94 174.01,505.94 174.01,503.69 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon407"
+     points="174.01,503.69 175.15,503.69 175.15,505.94 174.01,505.94 174.01,503.69 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon409"
+     points="174.01,499.22 175.15,499.22 175.15,501.44 174.01,501.44 174.01,499.22 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon411"
+     points="174.01,499.22 175.15,499.22 175.15,501.44 174.01,501.44 174.01,499.22 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon413"
+     points="174.01,494.75 175.15,494.75 175.15,497 174.01,497 174.01,494.75 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon415"
+     points="174.01,494.75 175.15,494.75 175.15,497 174.01,497 174.01,494.75 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon417"
+     points="174.01,490.28 175.15,490.28 175.15,492.53 174.01,492.53 174.01,490.28 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon419"
+     points="174.01,490.28 175.15,490.28 175.15,492.53 174.01,492.53 174.01,490.28 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon421"
+     points="174.01,485.84 175.15,485.84 175.15,488.03 174.01,488.03 174.01,485.84 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon423"
+     points="174.01,485.84 175.15,485.84 175.15,488.03 174.01,488.03 174.01,485.84 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon425"
+     points="174.01,481.34 175.15,481.34 175.15,483.59 174.01,483.59 174.01,481.34 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon427"
+     points="174.01,481.34 175.15,481.34 175.15,483.59 174.01,483.59 174.01,481.34 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon429"
+     points="174.01,476.9 175.15,476.9 175.15,479.12 174.01,479.12 174.01,476.9 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon431"
+     points="174.01,476.9 175.15,476.9 175.15,479.12 174.01,479.12 174.01,476.9 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon433"
+     points="174.01,472.43 175.15,472.43 175.15,474.65 174.01,474.65 174.01,472.43 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon435"
+     points="174.01,472.43 175.15,472.43 175.15,474.65 174.01,474.65 174.01,472.43 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon437"
+     points="174.01,467.93 175.15,467.93 175.15,470.18 174.01,470.18 174.01,467.93 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon439"
+     points="174.01,467.93 175.15,467.93 175.15,470.18 174.01,470.18 174.01,467.93 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon441"
+     points="174.01,463.49 175.15,463.49 175.15,465.74 174.01,465.74 174.01,463.49 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon443"
+     points="174.01,463.49 175.15,463.49 175.15,465.74 174.01,465.74 174.01,463.49 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon445"
+     points="174.01,459.02 175.15,459.02 175.15,461.24 174.01,461.24 174.01,459.02 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon447"
+     points="174.01,459.02 175.15,459.02 175.15,461.24 174.01,461.24 174.01,459.02 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon449"
+     points="174.01,454.55 175.15,454.55 175.15,456.77 174.01,456.77 174.01,454.55 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon451"
+     points="174.01,454.55 175.15,454.55 175.15,456.77 174.01,456.77 174.01,454.55 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon453"
+     points="174.01,450.08 175.15,450.08 175.15,452.33 174.01,452.33 174.01,450.08 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon455"
+     points="174.01,450.08 175.15,450.08 175.15,452.33 174.01,452.33 174.01,450.08 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon457"
+     points="174.01,445.61 175.15,445.61 175.15,447.83 174.01,447.83 174.01,445.61 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon459"
+     points="174.01,445.61 175.15,445.61 175.15,447.83 174.01,447.83 174.01,445.61 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon461"
+     points="174.01,441.17 175.15,441.17 175.15,443.36 174.01,443.36 174.01,441.17 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon463"
+     points="174.01,441.17 175.15,441.17 175.15,443.36 174.01,443.36 174.01,441.17 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon465"
+     points="324.07,461.39 324.22,462.41 316.3,453.71 327.94,455.42 327.04,455.84 326.17,456.47 325.39,457.22 324.76,458.15 324.31,459.2 324.1,460.31 324.07,461.39 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon467"
+     points="324.07,461.39 324.22,462.41 316.3,453.71 327.94,455.42 327.04,455.84 326.17,456.47 325.39,457.22 324.76,458.15 324.31,459.2 324.1,460.31 324.07,461.39 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon469"
+     points="364.24,478.88 324.25,457.61 324.01,458.12 364,479.36 364.24,478.88 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon471"
+     points="364.24,478.88 324.25,457.61 324.01,458.12 364,479.36 364.24,478.88 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon473"
+     points="215.56,467.72 216.1,467.84 216.13,467.54 215.59,467.45 215.56,467.72 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon475"
+     points="215.56,467.72 216.1,467.84 216.13,467.54 215.59,467.45 215.56,467.72 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon477"
+     points="216.64,467.93 217.09,467.99 217.12,467.75 216.67,467.66 216.64,467.93 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon479"
+     points="216.64,467.93 217.09,467.99 217.12,467.75 216.67,467.66 216.64,467.93 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon481"
+     points="216.61,397.19 216.76,397.13 216.67,396.89 216.52,396.92 216.61,397.19 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <polygon
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;letter-spacing:normal;word-spacing:normal;text-anchor:start;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="polygon483"
+     points="216.61,397.19 216.76,397.13 216.67,396.89 216.52,396.92 216.61,397.19 "
+     transform="matrix(5.4572429e-3,0,0,-5.4572429e-3,-1.2660364,2.9730391)" />
+  <text
+     style="font-size:0.09027314px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:normal;word-spacing:normal;writing-mode:lr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Sans"
+     id="text485"
+     font-size="20px"
+     x="0.59701192"
+     y="0.97230434"
+     sodipodi:linespacing="125%">
+    <tspan
+       sodipodi:role="line"
+       id="tspan2680"
+       x="0.59701192"
+       y="0.97230434">Vertex</tspan>
+  </text>
+  <text
+     style="font-size:0.09027314px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:normal;word-spacing:normal;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Sans"
+     id="text487"
+     font-size="20px"
+     x="0.67886353"
+     y="0.68978286"
+     sodipodi:linespacing="125%">
+    <tspan
+       sodipodi:role="line"
+       id="tspan2678"
+       x="0.67886353"
+       y="0.68978286">Edge</tspan>
+  </text>
+  <text
+     style="font-size:0.09027314px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:normal;word-spacing:normal;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Sans"
+     id="text489"
+     font-size="20px"
+     x="0.642573"
+     y="0.34346625"
+     sodipodi:linespacing="125%">
+    <tspan
+       sodipodi:role="line"
+       id="tspan2676"
+       x="0.642573"
+       y="0.34346625">Face</tspan>
+  </text>
+  <text
+     style="font-size:0.09027314px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:normal;word-spacing:normal;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10.43299961;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;font-family:Sans"
+     id="text491"
+     font-size="20px"
+     x="-0.088376954"
+     y="0.092815064"
+     sodipodi:linespacing="125%">
+    <tspan
+       sodipodi:role="line"
+       id="tspan2674"
+       x="-0.088376954"
+       y="0.092815064">Cell</tspan>
+  </text>
+</svg>

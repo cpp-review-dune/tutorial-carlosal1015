@@ -1,0 +1,79 @@
+\begin{tikzpictureinternal}[level/.style={sibling distance=3cm/#1,level distance=1cm}]
+  \def\colsep{4em}
+  \matrix (mat) {
+    \scoped[every node/.style={draw=niceblue,fill=niceblue!20, text height=\heightof{$A_1$},text depth=\depthof{$A_1$},minimum width=.7cm}]
+  \node {$^F_LU$}
+  child {
+    node {$^F_0\Phi$}
+  }
+  child {
+    node {$^F_L$TH}
+      child {
+        node  {$^F_LV$}
+        child {
+          node  {$^F_0V_x$}
+        }
+        child {
+          node  {$^F_0V_y$}
+        }
+        child {
+          node  {$^F_0V_z$}
+        }
+      }
+      child {
+        node  {$^F_0P$}
+      }
+    }; \\
+\node[minimum height=1cm] (sep1) {}; \\
+\node[minimum height=1cm] (sep2) {}; \\
+    \scoped[every node/.style={draw=niceblue,fill=niceblue!20, text height=\heightof{$A_1$},text depth=\depthof{$A_1$},minimum width=.7cm},level/.style={sibling distance=4cm/#1,level distance=1cm}]
+  \node {$M_L$}
+  child {
+    node {$M_{\tess}$}
+    child {
+      node {$M_0$}
+    }
+  }
+  child {
+    node {$M_L$}
+      child {
+        node  {$M_L$}
+        child {
+          node  {$M_{\tess}$}
+          child {
+            node  {$M_0$}
+          }
+        }
+        child {
+          node  {$M_{\tess}$}
+          child {
+            node  {$M_0$}
+          }
+        }
+        child {
+          node  {$M_{\tess}$}
+          child {
+            node  {$M_0$}
+          }
+        }
+      }
+      child {
+        node {$M_{\tess}$}
+        child[missing] {
+          node {}
+        }
+        child {
+          node {$M_0$}
+        }
+      }
+    }; \\
+};
+
+\draw [line width=3pt,arrows = {->},color=niceblue] (sep1.center) -- (sep2.center);
+\end{tikzpictureinternal}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../verteidigung"
+%%% End:

@@ -1,0 +1,16 @@
+cell = triangle
+V = FiniteElement("CG", cell, 1)
+u = TrialFunction(V)
+v = TestFunction(V)
+
+dim = 2
+x = SpatialCoordinate(cell)
+g = x[0]*x[0]+x[1]*x[1]
+f = -2*dim
+
+r = (inner(grad(u), grad(v)) - f*v)*dx
+
+# dune-codegen specific
+exact_solution = g
+interpolate_expression = g
+is_dirichlet = 1

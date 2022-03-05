@@ -1,0 +1,48 @@
+\begin{tikzpicture}[scale=1.5]
+
+\input{tikz/dofs/includes}
+
+\foreach \c / \i in {ca/0,cb/2.5}
+{
+
+\foreach \x in {0,1}
+  \foreach \y in {0,1}
+  {
+    \draw (\x+4 + \i,\y) rectangle ++(1,1);
+  }
+
+\foreach \x in {0,1,2}
+  \foreach \y in {0,1,2}
+  {
+    \fill[\c] (\x+4 + \i,\y) circle (0.1);
+  }
+
+\filldraw[fill=\c] (4 + \i,-1) rectangle ++(2,0.2);
+\foreach \x in {0.1,0.2,...,1.9}
+  \draw (4 + \i+\x,-1) -- ++(0,0.2);
+
+\filldraw[fill=\c] ((4.25 + 0.8*\i,-1.8) rectangle ++(2,0.2);
+ \foreach \x in {0.1,0.2,...,1.9}
+   \draw (4.25 + 0.8*\i +\x,-1.8) -- ++(0,0.2);
+}
+
+\draw (6.25,-1.4) node {Lexicographic merging};
+
+\draw (6.25,-2.3) node {Interleaved merging};
+
+\foreach \x in {0,0.1,...,1.91}
+{
+  \fill[color=ca] (4.25+2*\x,-2.7) rectangle ++(0.1,0.2);
+  \fill[color=cb] (4.35+2*\x,-2.7) rectangle ++(0.1,0.2);
+}
+\foreach \x in {0.1,0.2,...,3.9}
+  \draw (4.25+\x,-2.7) -- ++(0,0.2);
+\draw (4.25,-2.7) rectangle ++(4,0.2);
+
+\end{tikzpicture}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../verteidigung"
+%%% End:

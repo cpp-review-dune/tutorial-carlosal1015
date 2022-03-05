@@ -1,0 +1,44 @@
+% Style settings for exercise sheet
+%==================================
+
+% Begin with plain page style
+\pagestyle{plain}
+
+% Placeholder used in header
+\newcommand{\subtitle}[1]{\def\@subtitle{#1}}
+\subtitle{}
+\newcommand{\exerciselabel}[1]{\def\@exerciselabel{#1}}
+\exerciselabel{Exercise}
+
+% Create header for exercise sheet
+\newcommand{\exerciseheader}[0]
+{
+  \par\bigskip
+  \begin{center}
+    \large{\@title} \par
+    \@subtitle
+  \end{center}
+  \rule{\textwidth}{1pt}
+  \bigskip
+}
+
+% Counter for exercises
+\newcounter{Exctr}
+\setcounter{Exctr}{0}
+
+% Exercise environment
+\newenvironment{Exercise}[2][0]
+{
+  \stepcounter{Exctr}%
+  \bigskip%
+  \bigskip%
+  \noindent%
+  \textbf{\@exerciselabel~\arabic{Exctr}}% Exerciselabel
+  \hspace{1em}%
+  \textsc{#2}% Title
+  \nopagebreak%
+  \nopagebreak\par\nopagebreak\noindent\hspace*{0mm}\nopagebreak
+}
+{}
+
+\parskip1ex

@@ -1,0 +1,7 @@
+CMAKE_FLAGS="
+-DCMAKE_C_COMPILER='/usr/bin/gcc'
+-DCMAKE_CXX_COMPILER='/usr/bin/g++'
+-DCMAKE_CXX_FLAGS_RELEASE='-O3 -DNDEBUG -g0 -Wno-deprecated-declarations -funroll-loops'
+-DCMAKE_BUILD_TYPE=Release
+-DDUNE_SYMLINK_TO_SOURCE_TREE=1
+"

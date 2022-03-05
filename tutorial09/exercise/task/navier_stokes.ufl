@@ -1,0 +1,31 @@
+cell = triangle
+
+P2 = VectorElement("CG", cell, 2)
+P1 = FiniteElement("CG", cell, 1)
+TH = P2 * P1
+
+u, p = TrialFunctions(TH)
+v, q = TestFunctions(TH)
+
+rho = 1.0
+mu = 0.001
+
+x = SpatialCoordinate(cell)
+time = get_time(cell)
+
+# TODO: Implement the initial condition for u_0 here
+g_u0 = 0
+
+# Decide where to apply which boundary
+# 0: Do nothing
+# 1: Dirichlet
+bctype = conditional(x[0]<2.2-1e-8, 1., 0.)
+
+# Mass matrix for the temporal part
+mass = rho*inner(u, v)*dx
+
+# TODO: Implement the right residual for spatial discretization here
+r = p*q*dx
+
+is_dirichlet = bctype, bctype, 0
+interpolate_expression = g_u0, 0., 0.

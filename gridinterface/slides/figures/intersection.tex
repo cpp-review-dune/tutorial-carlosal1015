@@ -1,0 +1,40 @@
+\documentclass{beamer}
+\usepackage[ngerman]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+\definecolor{nearlywhite}{gray}{0.95}
+
+\usepackage{psfrag}
+\setbeamertemplate{sidebar right}{}
+
+\begin{document}
+
+\begin{frame}
+  \begin{columns}[t]
+    \begin{column}{0.4\textwidth}
+        \tiny
+        \psfrag{thetae}{$\hat{E}$}%$\theta_E$}
+        \psfrag{thetaeprime}{$\hat{E'}$}%$\theta_{E'}$}
+        \psfrag{thetaeeprime}{$\hat{I}$}
+        \psfrag{galpha}{$T_{I,E}$}%\tt intersectionSelfLocal}
+        \psfrag{gbeta}{$T_{I,E'}$}%\tt intersectionNeighborLocal}
+        \psfrag{e}{\hspace*{-2mm}Entity $E$}
+        \psfrag{eprime}{\hspace*{-2mm}Entity $E'$}
+        \psfrag{omegalambda}{Intersection $I$}
+        \psfrag{ge}{$T_E$}%$B_{j,p}$}
+        \psfrag{gt}{$T_I$}%$B_{j,p}$}
+        \psfrag{geprime}{$T_{E'}$}%$F_{j,p}$}
+        \includegraphics[width=\linewidth]{intersection_img}
+%      \color{nearlywhite}.
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\end{document}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 

@@ -1,0 +1,404 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% A general frame for lecture slides and lecture notes in one file
+% using LaTeX beamer
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[ignorenonframetext,11pt]{beamer}
+%\usepackage[ngerman]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts}
+
+
+% only presentation 
+\mode<presentation>
+{
+  \usetheme{default}
+%  \usecolortheme{crane}
+  \setbeamercovered{transparent}
+%  \setlength{\parindent}{0pt}
+%  \setlength{\parskip}{1.35ex plus 0.5ex minus 0.3ex}
+%  \usefonttheme{structuresmallcapsserif}
+  \usefonttheme{structurebold}
+  \setbeamertemplate{theorems}[numbered]
+  \usepackage{amscd}
+}
+
+% all after
+\usepackage{tikz} 
+\usepackage{pgfplots,adjustbox}
+\usepackage{eurosym} 
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{psfrag}
+\usepackage{listings}
+\lstset{language=C++, basicstyle=\ttfamily, 
+  keywordstyle=\color{black}\bfseries, tabsize=4, stringstyle=\ttfamily,
+  commentstyle=\it, extendedchars=true, escapeinside={/*@}{@*/}}
+\usepackage{curves}
+%\usepackage{epic}
+\usepackage{calc}
+%\usepackage{picinpar}
+%\usepackage{fancybox}
+%\usepackage{xspace}
+\usepackage{enumerate}
+\usepackage{algpseudocode}
+\usepackage{color}
+\usepackage{bold-extra}
+\usepackage{bm}
+\usepackage{stmaryrd}
+%\usepackage[squaren]{SIunits}
+\usepackage{nicefrac}
+
+\usepackage{fancyvrb,bbm,xspace}
+\usepackage{lmodern}
+\usepackage{fancyvrb,bbm,xspace}
+\usepackage[binary-units]{siunitx}
+\usepackage{xcolor,tabu}
+
+\definecolor{niceblue}{rgb}{0.122,0.396,0.651}   %% 31, 101, 166 or #1F65A6
+\definecolor{niceorange}{RGB}{255,205,86}        %% #FFCD56
+\definecolor{nicered}{RGB}{220,20,60}                      %% rgb(220, 20, 60)
+\definecolor{niceteal}{HTML}{00A9AB}
+\definecolor{niceviolet}{HTML}{820080}
+
+\definecolor{niceblueLight}{HTML}{91CAFB}
+\definecolor{niceblueVeryLight}{HTML}{DDEFFF}
+
+\usepackage{dsfont}
+
+%\newcommand{\hlineabove}{\rule{0pt}{2.6ex}}
+%\newcommand{\hlinebelow}{\rule[-1.2ex]{0pt}{0pt}}
+
+%\usecolortheme[RGB={37,75,123}]{structure}
+% \definecolor{structurecolor}{rgb}{0.905,0.318,0.071}
+
+% \setbeamercolor{frametitle}{fg=black,bg=}
+% \setbeamercolor{sidebar left}{fg=,bg=}
+
+% \setbeamertemplate{headline}{\vskip4em}
+% \setbeamersize{sidebar width left=.9cm}
+
+% \setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{blocks}[rounded][shadow=true]
+%\setbeamertemplate{itemize items}[square]
+
+\mode<presentation> 
+{
+\theoremstyle{definition}
+}
+\newtheorem{Def}{Definition}%[section]
+\newtheorem{Exm}[Def]{Example}
+\newtheorem{Lem}[Def]{Lemma}
+\newtheorem{Rem}[Def]{Remark}
+\newtheorem{Rul}[Def]{Rule}
+\newtheorem{Thm}[Def]{Theorem}
+\newtheorem{Cor}[Def]{Corollary}
+\newtheorem{Obs}[Def]{Observation}
+\newtheorem{Ass}[Def]{Assumption}
+\newtheorem{Pro}[Def]{Property}
+\newtheorem{Alg}[Def]{Algorithm}
+\newtheorem{Prp}[Def]{Proposition}
+\newtheorem{Lst}[Def]{Listing}
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>
+    \frametitle{Contents}
+    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=hide/hide/hide]
+%\tableofcontents[currentsection]
+  \end{frame}
+}
+
+% Title definition
+\mode<presentation>
+{
+  \title{DUNE PDELab Tutorial 07 - Overview\\
+  {\small  Discontinuous Galerkin for Hyperbolic conservation laws }}
+  \author{Linus Seelinger}
+  \institute[]
+  {
+   Interdisziplinäres Zentrum für Wissenschaftliches Rechnen\\
+   Im Neuenheimer Feld 205, D-69120 Heidelberg \\[6pt]
+  }
+  \date[\today]{\today}
+}
+
+
+% logo nach oben
+\mode<presentation>
+{
+% No navigation symbols and no lower logo
+\setbeamertemplate{sidebar right}{}
+
+% logo
+\newsavebox{\logobox}
+\sbox{\logobox}{%
+    \hskip\paperwidth%
+    \rlap{%
+      % putting the logo should not change the vertical possition
+      \vbox to 0pt{%
+        \vskip-\paperheight%
+        \vskip0.35cm%
+        \llap{\insertlogo\hskip0.1cm}%
+        % avoid overfull \vbox messages
+        \vss%
+      }%
+    }%
+}
+
+\addtobeamertemplate{footline}{}{%
+    \usebox{\logobox}%
+}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% now comes the individual stuff lecture by lecture
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\frame{\titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Motivation}
+Discontinuous Galerkin methods offer
+\begin{itemize}
+  \item local mass conservation (Conforming FEM does not!)
+  \item higher-order approximation (Finite Volume does not!)
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\begin{center}
+\Large\textbf{First-Order Hyperbolic PDEs}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Conservative Form}
+
+\begin{equation*}
+\label{eq:master_problem}
+\partial_t u(x,t) + \nabla\cdot F(u(x,t),x,t) = g(u(x,t),x,t)  \quad\text{in $U=\Omega\times\Sigma$}
+\end{equation*}
+with initial conditions
+\begin{equation*}
+u(x,0) = u_0(x)
+\end{equation*}
+
+\begin{itemize}
+  \item Spatial domain $\Omega=\mathbb{R}^{d}$, $d\in\mathbb{N}$, temporal domain $\Sigma=\mathbb{R}^+$
+  \item $F(u,x,t)$ is called \textit{flux function}
+  \item Arises naturally from conservation laws (e.g. mass, energy, ...)
+\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}
+\frametitle{Quasi-Linear Form}
+
+\begin{equation*}
+\label{eq:master_nonconservative_form}
+\partial_t u(x,t) + \sum_{j=1}^{d} B_j(u(x,t),x,t) \partial_{x_j} u(x,t) + \tilde{g}(u(x,t),x,t) = 0
+\quad\text{in $\Omega\times\Sigma$}
+\end{equation*}
+with initial conditions
+\begin{equation*}
+u(x,0) = u_0(x)
+\end{equation*}
+
+\begin{itemize}
+  \item Derived from conservative form via chain rule (needs smoothness of flux function)
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Hyperbolicity Criterion}
+
+\begin{equation*}
+\partial_t u(x,t) + \sum_{j=1}^{d} B_j(u(x,t),x,t) \partial_{x_j} u(x,t) + \tilde{g}(u(x,t),x,t) = 0
+\quad\text{in $\Omega\times\Sigma$}
+\end{equation*}
+
+\begin{itemize}
+  \item Is called \textit{hyperbolic} if
+        \begin{equation*}\label{eq:BMatrix}
+          B(u,x,t; y) = \sum_{j=1}^{d} y_j B_j(u,x,t)
+        \end{equation*}
+        is real diagonalizable (i.e. real eigenvalues, eigenvectors form basis)
+  \item Property needed for theoretical and numerical treatment
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\begin{center}
+\Large\textbf{Examples}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Acoustic Wave Equation}
+
+Linearized conservation laws:
+
+\begin{align*}
+  \partial_t \tilde{\rho} +  \nabla\cdot(\bar{\rho} \tilde{v}) &= 0 &&\text{(conservation of mass)}\\
+  \partial_t (\bar\rho \tilde{v}) + \nabla \tilde{p} &= 0 &&\text{(conservation of momentum)}
+\end{align*}
+
+\begin{itemize}
+  \item Describes propagation of acoustic waves through material
+  \item Derived by linearizing mass/momentum conservation around background state
+  \item Simplifying assumptions involved!
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Acoustic Wave Equation}
+As hyperbolic system:
+
+$$\partial_t u(x,t) + \nabla\cdot F(u(x,t),x,t) = 0,$$
+where
+$$u = \begin{pmatrix}
+\varrho\\
+q_1\\
+\vdots\\
+q_d
+\end{pmatrix} ,\quad
+F(u(x,t),x,t) = \left( \begin{matrix}
+q_1  & q_2 & \dots & q_{d}\\
+c^2\rho & 0 & \dots & 0\\
+0 & c^2\rho & \dots & 0\\
+\vdots & \vdots & \ddots & \vdots\\
+0 & 0 & \dots & c^2\rho
+\end{matrix} \right)\in \mathbb{R}^{m\times d} $$
+
+\begin{itemize}
+  \item Derived replacing momentum by $\tilde{q} = \bar{\rho} \tilde{v}$
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+\frametitle{Shallow Water Equations}
+
+\begin{equation*}\label{eq:swe2D}
+\partial_t \begin{pmatrix}
+h\\
+u_1h\\
+u_2h
+\end{pmatrix}+ \nabla\cdot
+\left( \begin{matrix}
+u_1h   & u_2h\\
+u_1^2h + \frac{1}{2}gh^2 & u_1u_2h\\
+u_1u_2h & u_2^2h + \frac{1}{2}gh^2
+\end{matrix}\right) = 0
+\end{equation*}
+
+\begin{itemize}
+  \item Describes water height $h>0$ and velocity $u=(u_1,u_2)$
+  \item Widely used for predictions of flooding, dam-breaks, tsunamis
+  \item Nonlinear PDE, again derived from conservation law
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\begin{center}
+\Large\textbf{Discontinuous Galerkin Methods}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Finite Element Space}
+
+\begin{equation*}
+V_h^q = \left\{ v\in L^2(\Omega) \,:\,
+v|_e = p\circ\mu_e^{-1}, p\in\mathbb{P}^{q,d}\right\}
+\end{equation*}
+
+\begin{itemize}
+  \item $\mu_e : \hat{E} \to e$ maps reference element to mesh element
+  \item $p\in\mathbb{P}^{q,d}$ polynomial space on ref. element
+  \item Note: No continuity required $\rightarrow$ nonconforming method!
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Discretization}
+For piecewise smooth test function $v$:
+
+\begin{equation*}\label{eq:DG_identity}
+\begin{split}
+\int_\Omega \biggl[&\partial_t u + \sum_{j=1}^{d}\partial_{x_j}F_j(u,x,t)\biggr]\cdot v \,dx = \\
+&= d_t (u,v)_\Omega - \sum_{e\in\mathcal{E}_h} \int_e F(u,x,t) : \nabla v\,dx\\
+&\qquad + \sum_{f\in\mathcal{F}_h^i} \int_f \llbracket (F(u,s,t)n)\cdot v \rrbracket \,ds
++ \sum_{f\in\mathcal{F}_h^{\partial\Omega}} \int_f (F(u,s,t)n)\cdot v \,ds \,.
+\end{split}
+\end{equation*}
+
+\begin{itemize}
+  \item $\llbracket v \rrbracket (x) = v^-(x)-v^+(x)$ denotes jump across interface
+  \item Need single-valued approximation of $F \cdot n$
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Numerical Fluxes}
+
+
+\begin{align*}
+\Phi :  \mathbb{R}^d \times U \times U \rightarrow \mathbb{R},
+\end{align*}
+
+approximating $F \cdot n$ on interfaces, fulfilling
+
+\begin{itemize}
+  \item Consistency: Approximation exact if solution locally continuous
+  \item Conservation: $\Phi(n_1,u_1,u_2) + \Phi(n_2, u_2, u_1) = 0$
+
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\begin{center}
+\Large\textbf{Implementation in DUNE}
+\end{center}
+\end{frame}
+
+\begin{frame}
+\frametitle{Implementation in DUNE}
+
+\begin{itemize}
+  \item Define particular numerical flux
+  \item Define DG method's spatial and temporal local operators
+  \item Use a \texttt{DGLocalFiniteElementMap}
+\end{itemize}
+Otherwise, same as any other instationary method!
+\end{frame}
+
+\end{document}
+

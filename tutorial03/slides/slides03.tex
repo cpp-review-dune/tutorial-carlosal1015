@@ -1,0 +1,402 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% A general frame for lecture slides and lecture notes in one file
+% using LaTeX beamer
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[ignorenonframetext,11pt]{beamer}
+%\usepackage[ngerman]{babel}
+%\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsfonts}
+
+
+% only presentation
+\mode<presentation>
+{
+  \usetheme{default}
+%  \usecolortheme{crane}
+  \setbeamercovered{transparent}
+%  \setlength{\parindent}{0pt}
+%  \setlength{\parskip}{1.35ex plus 0.5ex minus 0.3ex}
+%  \usefonttheme{structuresmallcapsserif}
+  \usefonttheme{structurebold}
+  \setbeamertemplate{theorems}[numbered]
+  \usepackage{amscd}
+}
+
+% all after
+\usepackage{tikz}
+\usetikzlibrary{patterns}
+\usepackage{pgfplots,adjustbox}
+\usepackage{eurosym}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{psfrag}
+\usepackage{listings}
+\lstset{language=C++, basicstyle=\ttfamily,
+  keywordstyle=\color{black}\bfseries, tabsize=4, stringstyle=\ttfamily,
+  commentstyle=\it, extendedchars=true, escapeinside={/*@}{@*/}}
+\usepackage{curves}
+%\usepackage{epic}
+\usepackage{calc}
+%\usepackage{picinpar}
+%\usepackage{fancybox}
+%\usepackage{xspace}
+\usepackage{enumerate}
+\usepackage{algpseudocode}
+\usepackage{color}
+\usepackage{bold-extra}
+\usepackage{bm}
+\usepackage{stmaryrd}
+%\usepackage[squaren]{SIunits}
+\usepackage{nicefrac}
+
+\usepackage{fancyvrb,bbm,xspace}
+\usepackage{lmodern}
+\usepackage{fancyvrb,bbm,xspace}
+\usepackage[binary-units]{siunitx}
+\usepackage{xcolor,tabu}
+
+\definecolor{niceblue}{rgb}{0.122,0.396,0.651}   %% 31, 101, 166 or #1F65A6
+\definecolor{niceorange}{RGB}{255,205,86}        %% #FFCD56
+\definecolor{nicered}{RGB}{220,20,60}                      %% rgb(220, 20, 60)
+\definecolor{niceteal}{HTML}{00A9AB}
+\definecolor{niceviolet}{HTML}{820080}
+
+\definecolor{niceblueLight}{HTML}{91CAFB}
+\definecolor{niceblueVeryLight}{HTML}{DDEFFF}
+
+\usepackage{dsfont}
+
+%\newcommand{\hlineabove}{\rule{0pt}{2.6ex}}
+%\newcommand{\hlinebelow}{\rule[-1.2ex]{0pt}{0pt}}
+
+%\usecolortheme[RGB={37,75,123}]{structure}
+% \definecolor{structurecolor}{rgb}{0.905,0.318,0.071}
+
+% \setbeamercolor{frametitle}{fg=black,bg=}
+% \setbeamercolor{sidebar left}{fg=,bg=}
+
+% \setbeamertemplate{headline}{\vskip4em}
+% \setbeamersize{sidebar width left=.9cm}
+
+% \setbeamertemplate{navigation symbols}{}
+%\setbeamertemplate{blocks}[rounded][shadow=true]
+%\setbeamertemplate{itemize items}[square]
+
+\mode<presentation>
+{
+\theoremstyle{definition}
+}
+\newtheorem{Def}{Definition}%[section]
+\newtheorem{Exm}[Def]{Example}
+\newtheorem{Lem}[Def]{Lemma}
+\newtheorem{Rem}[Def]{Remark}
+\newtheorem{Rul}[Def]{Rule}
+\newtheorem{Thm}[Def]{Theorem}
+\newtheorem{Cor}[Def]{Corollary}
+\newtheorem{Obs}[Def]{Observation}
+\newtheorem{Ass}[Def]{Assumption}
+\newtheorem{Pro}[Def]{Property}
+\newtheorem{Alg}[Def]{Algorithm}
+\newtheorem{Prp}[Def]{Proposition}
+\newtheorem{Lst}[Def]{Listing}
+
+% Delete this, if you do not want the table of contents to pop up at
+% the beginning of each subsection:
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>
+    \frametitle{Contents}
+    \tableofcontents[sectionstyle=show/shaded,subsectionstyle=hide/hide/hide]
+%\tableofcontents[currentsection]
+  \end{frame}
+}
+
+% Title definition
+\mode<presentation>
+{
+  \title{DUNE PDELab Tutorial 03\\
+  {\small  Conforming Finite Elements for a Nonlinear Heat Equation}}
+  \author{Peter Bastian}
+  \institute[]
+  {
+   Interdisziplinäres Zentrum für Wissenschaftliches Rechnen\\
+   Im Neuenheimer Feld 205, D-69120 Heidelberg \\[6pt]
+  }
+  \date[\today]{\today}
+}
+
+
+% logo nach oben
+\mode<presentation>
+{
+% No navigation symbols and no lower logo
+\setbeamertemplate{sidebar right}{}
+
+% logo
+\newsavebox{\logobox}
+\sbox{\logobox}{%
+    \hskip\paperwidth%
+    \rlap{%
+      % putting the logo should not change the vertical possition
+      \vbox to 0pt{%
+        \vskip-\paperheight%
+        \vskip0.35cm%
+        \llap{\insertlogo\hskip0.1cm}%
+        % avoid overfull \vbox messages
+        \vss%
+      }%
+    }%
+}
+
+\addtobeamertemplate{footline}{}{%
+    \usebox{\logobox}%
+}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% now comes the individual stuff lecture by lecture
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\frame{\titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{PDE Problem}
+This tutorial extends the problem from tutorial 01 to the instationary setting:
+\begin{align*}
+\partial_t u -\Delta u + q(u) &= f &&\text{in $\Omega\times\Sigma$},\\
+u &= g &&\text{on $\Gamma_D\subseteq\partial\Omega$},\\
+-\nabla u\cdot \nu &= j &&\text{on $\Gamma_N=\partial\Omega\setminus\Gamma_D$},\\
+u &= u_0 &&\text{at $t=0$}.
+\end{align*}
+\textit{Weak formulation:} Find $u\in L_2(t_0,t_0+T;u_g+V(t))$:
+\begin{equation*}
+\frac{d}{dt} \int_\Omega u v \,dx+ \int_\Omega \nabla u \cdot \nabla v
++ q(u) v - f v \, dx + \int_{\Gamma_N} jv \, ds = 0 \qquad
+\begin{array}{l}
+\forall v \in V(t),\\
+t \in \Sigma,
+\end{array}
+\end{equation*}
+where $V(t) = \{v\in H^1(\Omega)\,:\, \text{$v=0$ on $\Gamma_D(t)$}\}$
+and $H^1(\Omega)\ni u_g(t)|_{\Gamma_D}=g$.
+\end{frame}
+
+\begin{frame}
+\frametitle{Residual Forms}
+\textit{Introduce the residual forms:} Find $u\in L_2(t_0,t_0+T;u_g+V(t))$:
+\begin{equation*}
+\frac{d}{dt} m^{\text{L2}}(u,v) + r^{\text{NLP}}(u,v) = 0 \quad \forall v \in V(t), t \in \Sigma.
+\end{equation*}
+with the \textit{temporal residual form}
+\begin{equation*}
+m^{\text{L2}}(u,v) = \int_\Omega u v \,dx
+\end{equation*}
+and the \textit{spatial residual form}
+\begin{equation*}
+r^{\text{NLP}}(u,v) = \int_\Omega \nabla u \cdot \nabla v + (q(u)-f)v\,dx + \int_{\Gamma_N} jv\,ds ,
+\end{equation*}
+\end{frame}
+
+\begin{frame}
+\frametitle{Method of Lines}
+\begin{enumerate}[1)]
+\item Discretize in space with conforming finite elements, i.e. choose a
+finite-dimensional test space $V_h(t)\subset V(t)$.
+\item Results in a system of ordinary differential equations (ODEs) for the time-dependent
+coefficient vector $z(t)$
+\item Choose an appropriate method to integrate the ODE system
+\item Other schemes can be implemented in PDELab as well, e.g. space-time methods
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{One Step $\theta$ Method}
+Subdivide time interval
+\begin{equation*}
+\overline{\Sigma} = \{t^{0}\} \cup (t^0,t^1] \cup \ldots \cup (t^{N-1},t^N]
+\end{equation*}
+Set  $\Delta t^k=t^{k+1}-t^k$;
+Find $u_h^{k+1}\in U_h(t^{k+1})$ s.t.:
+\begin{equation*}
+\begin{split}
+\frac{1}{\Delta t_k}(&m_h^\text{L2}(u_h^{k+1},v;t^{k+1})-m_h^\text{L2}(u_h^{k},v;t^{k})) + \\
+&\theta r_h^\text{NLP}(u_h^{k+1},v;t^{k+1}) + (1-\theta) r_h^\text{NLP}(u_h^{k},v;t^{k}) = 0
+\quad \forall v\in V_h(t^{k+1})
+\end{split}
+\end{equation*}
+\hrule
+\smallskip
+Reformulated this formally corresponds in each time step to the nonlinear problem
+\begin{equation*}
+\text{Find $u_h^{k+1}\in U_h(t^{k+1})$ s.t.:}
+\quad r_h^{\theta,k} (u_h^{k+1},v) + s_h^{\theta,k}(v) = 0
+\quad \forall v\in V_h(t^{k+1})
+\end{equation*}
+where
+\begin{align*}
+r^{\theta,k}_h(u,v) &= m_h^\text{L2}(u,v;t^{k+1})+\Delta t^k \theta r_h^\text{NLP}(u,v;t^{k+1}) ,\\
+s^{\theta,k}_h(v) &= -m_h^\text{L2}(u^k_h,v;t^k) + \Delta t^k (1-\theta) r_h^\text{NLP}(u_h^k,v;t^k)
+\end{align*}
+\end{frame}
+
+\begin{frame}
+\frametitle{Runge-Kutta Methods}
+in Shu-Osher form:
+\begin{enumerate}
+\item $u_h^{(0)} = u_h^{k}$.
+\item For $i=1,\ldots,s\in\mathbb{N}$, find $u_h^{(i)}\in u_{h,g}(t^k+d_i \Delta t^k)
++ V_h(t^{k+1})$:
+\begin{equation*}
+\begin{split}
+\sum\limits_{j=0}^{s} \bigl[a_{ij} m_h&\left(u_h^{(j)},v;t^k+d_j \Delta t^k\right) \\
+&+ b_{ij} \Delta t^k r_h\left(u_h^{(j)}, v;t^k+d_j \Delta t^k\right) \bigr] = 0
+\qquad \forall v\in V_h(t^{k+1})
+\end{split}
+\end{equation*}
+\item $u_h^{k+1} = u_h^{(s)}$.
+\end{enumerate}
+An $s$-stage scheme is given by the parameters
+\begin{equation*}
+A = \left[\begin{array}{ccc}
+a_{10} & \ldots & a_{1s}\\
+\vdots &  & \vdots\\
+a_{s0} & \ldots & a_{ss}
+\end{array}\right],
+\quad B = \left[\begin{array}{ccc}
+b_{10} & \ldots & b_{1s}\\
+\vdots &  & \vdots\\
+b_{s0} & \ldots & b_{ss}
+\end{array}\right],
+\quad d = \left(
+d_{0}, \ldots, d_{s}
+\right)^T
+\end{equation*}
+Consider explicit and diagonally implicit schemes
+\end{frame}
+
+\begin{frame}
+\frametitle{Examples}
+\begin{itemize}
+\item One step $\theta$ scheme (introduced above):
+\begin{equation*}
+A = \left[\begin{array}{cc}
+-1 & 1
+\end{array}\right],
+\quad B = \left[\begin{array}{cc}
+1-\theta & \theta
+\end{array}\right],
+\quad d = \left(
+0, 1
+\right)^T.
+\end{equation*}
+Explicit/implicit Euler ($\theta\in\{0,1\}$), Crank-Nicolson ($\theta=\nicefrac12$).
+\item Heun's second order explicit method
+\begin{equation*}
+A = \left[\begin{array}{ccc}
+-1 & 1 & 0\\
+-\nicefrac12 & -\nicefrac12 & 1\\
+\end{array}\right],
+\quad B = \left[\begin{array}{ccc}
+1 & 0 & 0\\
+0 & \nicefrac12 & 0\\
+\end{array}\right],
+\quad d = \left(
+0, 1, 1
+\right)^T.
+\end{equation*}
+\item Alexander's two-stage second order strongly S-stable scheme
+{\footnotesize\begin{equation*}
+A = \left[\begin{array}{ccc}
+-1 & 1 & 0\\
+-1 & 0 & 1\\
+\end{array}\right],
+\quad B = \left[\begin{array}{ccc}
+0 & \alpha     & 0\\
+0 & 1-\alpha & \alpha\\
+\end{array}\right],
+\quad d = \left(
+0, \alpha, 1
+\right)^T
+\end{equation*}}
+with $\alpha=1-\nicefrac{\sqrt{2}}{2}$.
+\item Fractional step $\theta$, three stage second order strongly A-stable
+{\footnotesize\begin{equation*}
+A = \left[\begin{array}{rrrr}
+-1 & 1 & 0 & 0\\
+0  & -1 & 1 & 0\\
+0  & 0 & -1 & 1\\
+\end{array}\right],
+\quad B = \left[\begin{array}{rrrr}
+\theta \theta' & 2\theta^2 & 0 & 0\\
+0 & 2\theta\theta' & 2\theta^2 & 0\\
+0 & 0 & \theta\theta' & 2\theta^2
+\end{array}\right],
+\quad d = \left(
+0, \theta, 1-\theta, 1
+\right)^T
+\end{equation*}}
+with $\theta=1-\nicefrac{\sqrt{2}}{2}$, $\theta' = 1-2\theta = \sqrt{2}-1$.
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{Note on Explicit Schemes}
+Example: Explicit Euler method ($\theta=0$)
+results in: Find $u_h^{k+1}\in U_h(t^{k+1})$ s.t.:
+\begin{equation*}
+ m_h^\text{L2}(u_h^{k+1},v;t)-m_h^\text{L2}(u_h^{k},v;t) +
+\Delta t^k r_h^\text{NLP}(u_h^{k},v;t) = 0
+\quad \forall v\in V_h(t^{k+1})
+\end{equation*}
+Appropriate spatial discretization results in diagonal mass matrix:
+\begin{equation*}
+Dz^{k+1} = s^k - \Delta t^k q^k.
+\end{equation*}
+Requires stability condition for $\Delta t^k$.\\
+\smallskip
+Use follwing algorithm:
+\begin{enumerate}[i)]
+\item While traversing the mesh assemble the vectors $s^k$ and
+$q^k$ separately and compute the maximum time step $\Delta t^k$.
+\item Form the right hand side $b^k=s^k - \Delta t^k q^k$ and ``solve'' the
+diagonal system $Dz^{k+1} = b^k$ (can be done in one step).
+\end{enumerate}
+Extends to strong stability preserving Runge-Kutta methods
+\end{frame}
+
+\begin{frame}
+\frametitle{Realization in PDELab}
+\begin{enumerate}[1)]
+\item The ini-file
+\lstinline{tutorial03.ini} holds parameters
+controlling the execution.
+\item Main file \lstinline{tutorial03.cc} includes the necessary C++,
+DUNE and PDELab header files;
+contains \lstinline{main} function;
+instantiates DUNE grid objects and calls the \lstinline{driver} function
+\item Function \lstinline{driver} in file \lstinline{driver.hh} instantiates
+the necessary PDELab classes and finally solves the problem.
+\item File \lstinline{nonlinearheatfem.hh} contains the local operator classes
+\lstinline{NonlinearHeatFEM} and \lstinline{L2} realizing the spatial
+and temporal residual forms.
+\item File \lstinline{problem.hh} contains a parameter class which
+encapsulates the user-definable part of the PDE problem.
+\end{enumerate}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,33 @@
+cell = triangle
+degree = 1
+V = FiniteElement("CG", cell, degree)
+u = TrialFunction(V)
+v = TestFunction(V)
+
+x = SpatialCoordinate(cell)
+dim = 2
+eta = 2
+g = x[0]*x[0]+x[1]*x[1]
+f = -2*dim+eta*g*g
+
+def q(u):
+    return eta*u*u
+
+# Decide where to apply which boundary
+# 0: Neumann
+# 1: Dirichlet
+bctype = conditional(Or(x[0]<1e-8, x[0]>1.-1e-8), 0, 1)
+sgn = conditional(x[0] > 0.5, 1., -1.)
+j = -2.*sgn*x[0]
+
+# Define the boundary measure that knows where we are...
+ds = ds(subdomain_data=bctype)
+
+r = inner(grad(u), grad(v))*dx \
+  + q(u)*v*dx \
+  - f*v*dx \
+  + j*v*ds(0)
+
+exact_solution = g
+is_dirichlet = bctype
+interpolate_expression = g

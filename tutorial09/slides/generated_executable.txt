@@ -1,0 +1,6 @@
+dune_add_generated_executable(
+    UFLFILE uflfile
+    INIFILE inifile
+    TARGET target
+    [SOURCE source]
+)

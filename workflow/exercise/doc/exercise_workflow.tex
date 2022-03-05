@@ -1,0 +1,92 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,total={150mm,240mm}]{geometry}
+\usepackage[american]{babel}
+
+\usepackage{float}
+\usepackage{babel}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{amssymb}
+
+\usepackage{listings}
+\definecolor{listingbg}{gray}{0.95}
+\lstset{language=C++,basicstyle=\ttfamily\small,frame=single,backgroundcolor=\color{listingbg}}
+% \lstset{language=C++, basicstyle=\ttfamily,
+%   keywordstyle=\color{black}\bfseries, tabsize=4, stringstyle=\ttfamily,
+%   commentstyle=\it, extendedchars=true, escapeinside={/*@}{@*/}}
+
+\usepackage{exercise}
+
+\title{\textbf{Exercises for the introduction to the Grid Interface}}
+\exerciselabel{Exercise}
+
+\begin{document}
+
+\exerciseheader
+
+\begin{Exercise}{Constructing Dune grids}
+
+In this exercise you will experiment with constructing different grids. The working directory
+of the exercise is the same as in the previous exercise on the grid interface.
+
+The file \lstinline!grid-exercise2.cc! contains a code, which
+\begin{itemize}
+ \item defines the \lstinline!GridType! to one of a list of available Dune grids,
+ \item constructs a grid through one of the three basic factory concepts:
+  \begin{itemize}
+   \item \lstinline!StructuredgridFactory! for equidistant grids,
+   \item \lstinline!GmshReader! for unstructured grids,
+   \item \lstinline!TensorGridFactory! for tensor product grids,
+  \end{itemize}
+ \item potentially refines the grid once globally (disabled by default),
+ \item fills a data structure that maps each cell to its index in the index set,
+ \item Outputs this data structure to a vtk file which can be visualized in \lstinline!paraview!.
+\end{itemize}
+
+Try to construct as many different grids as possible and look at the result in paraview.
+Here are some questions to guide your exploration of grid construction:
+\begin{itemize}
+ \item Find out (visually) how the elements in a \lstinline!YaspGrid! are ordered in the index set.
+ \item Construct a structured grid with an unstructured grid manager.
+ \item Load an unstructured grid from one of the \lstinline!.msh! files you find in the exercise directory.
+ \item Construct a \lstinline!YaspGrid! for the domain $[-1,1]^2$.
+ \item Enable the global refinement in the code and observe the effect on the index set for structured and unstructured grids.
+ \item Build a tensor product \lstinline!YaspGrid! with and without global refinement. What do you observe?
+\end{itemize}
+
+\end{Exercise}
+
+\begin{Exercise}{Visualization with ParaView}
+ The purpose of this exercise is to explore the visualization capabilities of ParaView.
+
+ We start by visualizing the file \lstinline!2dexample.vtu!. It contains two data sets: a solution of a finite element method
+ for the Poisson equation and the interpolation of the exact solution onto the grid. Try the following steps:
+ \begin{itemize}
+  \item Load the file into paraview and get it visualized.
+  \item Get a 3D Plot by using the \lstinline!Warp by Scalar! filter.
+  \item Plot the solution along a line using the \lstinline!Plot over Line! filter.
+  \item Add a third data set using the \lstinline!Calculator! filter, which contains the error of the finite element discretization.
+ \end{itemize}
+
+ We will now visualize the solution of the finite volume example from this morning. If you have not successfully implemented the scheme,
+ you can produce the results by running the executables from the solution subfolder. Instead of a single file, we now load a \lstinline!pvd!
+ file that describes a time series. Try the following:
+ \begin{itemize}
+  \item Load the \lstinline!pvd! file, get it visualized and run it.
+  \item Use \lstinline!Plot over Line!.
+  \item Try using the filter \lstinline!Warp by Scalar!. What might be the problem with it?
+  \item Calculate the total mass by using the filter \lstinline!Integrate Variables!.
+  \item Try plotting the total mass over time and hopefully observe mass conversation. To do this,
+  you need to select the row with your integrated variable by clicking it and then apply the filter
+  \lstinline!Plot Selection over Time!.
+ \end{itemize}
+
+ Now load the 3D Finite Volume Data and try to explore it with ParaView. In addition to the tools mentioned above,
+ you might want to play around with \lstinline!Clip!, \lstinline!Contour! and \lstinline!Threshold!.
+\end{Exercise}
+
+
+\end{document}

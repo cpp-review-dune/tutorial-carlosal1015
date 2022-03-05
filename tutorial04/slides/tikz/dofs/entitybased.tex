@@ -1,0 +1,89 @@
+\begin{tikzpicture}
+
+\input{tikz/dofs/includes}
+
+\foreach \c / \i in {ca/1,cb/2}
+{
+
+  \draw (1+4*\i,2.5) node {$V_{\i}$};
+
+\foreach \x in {0,1}
+  \foreach \y in {0,1}
+  {
+    \draw (\x+4*\i,\y) rectangle ++(1,1);
+  }
+
+\foreach \x in {0,1,2}
+  \foreach \y in {0,1,2}
+  {
+    \fill[\c] (\x+4*\i,\y) circle (0.1);
+  }
+
+}
+
+\foreach \x in {4.5,5.5}
+  \foreach \y in {0,1,2}
+    \fill[cc] (\x,\y) circle (0.1);
+
+\foreach \x in {4,5,6}
+  \foreach \y in {0.5,1.5}
+    \fill[cc] (\x,\y) circle (0.1);
+
+\foreach \x in {4.5,5.5}
+  \foreach \y in {0.5,1.5}
+    \fill[cd] (\x,\y) circle(0.1);
+
+
+
+\fill[fill=ca] (3.5,-1) rectangle ++(2,0.2);
+\fill[fill=cc] (5.5,-1) rectangle ++(0.5,0.2);
+\fill[fill=cd] (6,-1) rectangle ++(0.5,0.2);
+\draw (3.5,-1) rectangle ++(3,0.2);
+
+\foreach \x in {0.1,0.2,...,2.9}
+  \draw (3.5+\x,-1) -- ++(0,0.2);
+
+\fill[fill=ca] (4.5,-2) rectangle ++(2,0.2);
+\fill[fill=cc] (6.5,-2) rectangle ++(0.5,0.2);
+\fill[fill=cd] (7,-2) rectangle ++(0.5,0.2);
+\draw (4.5,-2) rectangle ++(3,0.2);
+
+\foreach \x in {0.1,0.2,...,2.9}
+  \draw (4.5+\x,-2) -- ++(0,0.2);
+
+
+\filldraw[fill=cb] (8,-1) rectangle ++(2,0.2);
+\foreach \x in {0.1,0.2,...,1.9}
+  \draw (8+\x,-1) -- ++(0,0.2);
+
+\filldraw[fill=cb] (7.5,-2) rectangle ++(2,0.2);
+\foreach \x in {0.1,0.2,...,1.9}
+  \draw (7.5 + \x,-2) -- ++(0,0.2);
+
+
+\draw (7,-1.5) node {Lexicographic};
+\draw (7,-2.5) node {Sorted by grid entity};
+
+\foreach \x in {0,0.1,...,1.91}
+{
+  \fill[ca] (4.5+2*\x,-3) rectangle ++(0.1,0.2);
+  \fill[cb] (4.6+2*\x,-3) rectangle ++(0.1,0.2);
+}
+\foreach \x in {0.1,0.2,...,3.9}
+  \draw (4.5+\x,-3) -- ++(0,0.2);
+\draw (4.5,-3) rectangle ++(4,0.2);
+
+\filldraw[fill=cc] (8.5,-3) rectangle ++(0.5,0.2);
+\filldraw[fill=cd] (9,-3) rectangle ++(0.5,0.2);
+
+\foreach \x in {0.1,0.2,...,0.9}
+  \draw (8.5+\x,-3) -- ++(0,0.2);
+
+
+\end{tikzpicture}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../diss-main"
+%%% End:

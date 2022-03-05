@@ -1,0 +1,18 @@
+cell = triangle
+
+x = SpatialCoordinate(cell)
+v_bctype = conditional(x[0] < 1. - 1e-8, 1, 0)
+g_v = as_vector((4.*x[1]*(1.-x[1]), 0.0))
+
+P2 = VectorElement("Lagrange", cell, 2)
+P1 = FiniteElement("Lagrange", cell, 1)
+TH = P2 * P1
+
+v, q = TestFunctions(TH)
+u, p = TrialFunctions(TH)
+
+r = (inner(grad(v), grad(u)) - div(v)*p - q*div(u))*dx
+
+is_dirichlet = v_bctype, v_bctype, 0
+interpolate_expression = g_v, None
+exact_solution = g_v, 8.*(1.-x[0])

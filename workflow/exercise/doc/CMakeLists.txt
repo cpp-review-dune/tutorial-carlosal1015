@@ -1,0 +1,1 @@
+add_latexmk_document(SOURCE exercise_workflow.tex)

@@ -1,0 +1,16 @@
+cell = triangle
+degree = 1
+V = FiniteElement("DG", cell, degree)
+u = TrialFunction(V)
+v = TestFunction(V)
+
+x = SpatialCoordinate(cell)
+dim = 2
+eta = 2
+
+# TODO: Adjust the code below
+g = 1
+
+r = u*v*dx
+
+exact_solution = g

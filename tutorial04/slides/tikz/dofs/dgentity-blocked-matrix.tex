@@ -1,0 +1,27 @@
+\begin{tikzpicture}[scale=1.2]
+
+\input{tikz/dofs/includes}
+
+\foreach \x / \y in {0/0, 0/6, 0/18, 6/0, 6/6, 6/12, 6/24, 12/6, 12/12, 12/30, 18/0, 18/18, 18/24, 18/36, 24/6, 24/18, 24/24, 24/30, 24/42, 30/12, 30/24, 30/30, 30/48, 36/18, 36/36, 36/42, 42/24, 42/36, 42/42, 42/48, 48/30, 48/42, 48/48}
+{
+  \fill[ca] (0.1*\x,-0.1*\y) rectangle ++(0.6,-0.6);
+  \foreach \dx in {0.1,0.2,...,0.51}
+  {
+    \draw[black!80,ultra thin] (0.1*\x+\dx,-0.1*\y) -- ++(0,-0.6);
+    \draw[black!80,ultra thin] (0.1*\x,-0.1*\y-\dx) -- ++(0.6,0);
+  }
+}
+
+\foreach \x in {0,1,...,9}
+{
+  \draw (0.6*\x,0) -- ++(0,-5.4);
+  \draw (0,-0.6*\x) -- ++(5.4,0);
+}
+
+\end{tikzpicture}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "../../diss-main"
+%%% End:

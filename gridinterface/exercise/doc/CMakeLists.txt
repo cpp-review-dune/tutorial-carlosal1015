@@ -1,0 +1,2 @@
+add_latexmk_document(SOURCE exercise_grid1.tex)
+
